@@ -1,0 +1,54 @@
+{
+  "variantId": "FSD_stream_Guard",
+  "hullId": "FSD_stream",
+  "displayName": "Guard",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "FSD_OverrunPosition",
+    "ecm",
+    "eccm",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FSD_Longinus"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "FSD_Avision"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "FSD_PhasedMine",
+        "WS0004": "FSD_PhasedMine"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "FSD_GuiderPD",
+        "WS0006": "FSD_GuiderPD",
+        "WS0007": "FSD_HMG",
+        "WS0008": "FSD_HMG",
+        "WS0009": "FSD_HMG",
+        "WS0010": "FSD_HMG"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

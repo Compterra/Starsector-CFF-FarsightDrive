@@ -1,0 +1,54 @@
+{
+  "hullName": "Cobra",
+  "hullId": "FSD_cobra",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_cobra_bomber.png",
+  "style": "HIGH_TECH",
+  "height": 48,
+  "width": 30,
+  "center": [16, 21],
+  "collisionRadius": 40,
+  "shieldCenter": [1, 1],
+  "shieldRadius": 38,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_RLDetrital",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [10, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, 3.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-17.5, -0.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -8, 14,
+    18, 7,
+    18, -8,
+    -6, -12,
+    -19, 1
+  ]
+}

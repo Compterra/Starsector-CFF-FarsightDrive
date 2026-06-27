@@ -1,0 +1,54 @@
+{
+  "variantId": "FSD_stream_Eridanus",
+  "hullId": "FSD_stream",
+  "displayName": "Eridanus",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "FSD_OverrunPosition",
+    "magazines",
+    "high_scatter_amp",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FSD_Longinus"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "FSD_Avision"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "FSD_MEGAGuider",
+        "WS0004": "FSD_MEGAGuider"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "FSD_Tusk1",
+        "WS0006": "FSD_Tusk1",
+        "WS0007": "FSD_Tusk1",
+        "WS0008": "FSD_Tusk1",
+        "WS0009": "FSD_Tusk1",
+        "WS0010": "FSD_Tusk1"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

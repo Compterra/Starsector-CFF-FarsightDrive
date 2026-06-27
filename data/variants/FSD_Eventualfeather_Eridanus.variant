@@ -1,0 +1,47 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 50,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "FSD_Eventualfeather",
+    "hullMods": [
+        "FSD_LimitationOfTissueHyperplasia",
+        "autorepair",
+        "magazines",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_Eventualfeather_Eridanus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "FSD_DevourerCannon",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FSD_Decay",
+                "WS0003": "FSD_Decay",
+                "WS0002": "FSD_Decay",
+                "WS0004": "FSD_Decay",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "FSD_MiniChaingun",
+                "WS0007": "FSD_MiniChaingun",
+                "WS0006": "FSD_MiniChaingun",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,273 @@
+{
+  "hullName": "Night Dew",
+  "hullId": "FSD_storm",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/FSD_storm.png",
+  "style": "FarSight_Tech",
+  "height": 178,
+  "width": 216,
+  "center": [
+    108,
+    92
+  ],
+  "collisionRadius": 113,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight",
+    "FSD_CompactForge"
+  ],
+  "builtInWeapons": {
+    "WS0008": "FSD_InspireLight",
+    "WS0009": "FSD_InspireLight"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        21,
+        -44
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": 140,
+      "locations": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -140,
+      "locations": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -26,
+      "locations": [
+        13.5,
+        0
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 26,
+      "locations": [
+        13.5,
+        0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 9,
+      "angle": 140,
+      "locations": [
+        9.5,
+        73
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 9,
+      "angle": -140,
+      "locations": [
+        9.5,
+        -73
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 161,
+      "locations": [
+        -35.5,
+        29.5
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -161,
+      "locations": [
+        -35.5,
+        -29.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -31,
+        61
+      ],
+      "length": 100,
+      "width": 27,
+      "angle": 158,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -31,
+        -60
+      ],
+      "length": 100,
+      "width": 27,
+      "angle": -158,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -16,
+        -65
+      ],
+      "length": 60,
+      "width": 17,
+      "angle": -145,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -16,
+        65
+      ],
+      "length": 60,
+      "width": 17,
+      "angle": 145,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        41,
+        73
+      ],
+      "length": 57.439999,
+      "width": 14.87,
+      "angle": 126.5,
+      "contrailSize": 14.87,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        41,
+        -73
+      ],
+      "length": 44.919998,
+      "width": 13.96,
+      "angle": -128.5,
+      "contrailSize": 13.96,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    32.5,
+    -12.5,
+    33,
+    12,
+    51,
+    31,
+    88.5,
+    29,
+    44,
+    83,
+    34.5,
+    75.5,
+    4,
+    110.5,
+    11,
+    82,
+    -1,
+    70,
+    -21,
+    85.5,
+    -16.5,
+    68.5,
+    -35.5,
+    59,
+    -87,
+    62.5,
+    -38.5,
+    36.5,
+    -46.5,
+    12.5,
+    -65,
+    0,
+    -46.5,
+    -10.5,
+    -36.5,
+    -38.5,
+    -91.5,
+    -62.5,
+    -35.5,
+    -62,
+    -16,
+    -67,
+    -21.5,
+    -83.5,
+    0,
+    -68.5,
+    13,
+    -81.5,
+    5,
+    -109,
+    34,
+    -74.5,
+    44.5,
+    -82,
+    88.5,
+    -27.5,
+    50,
+    -32
+  ]
+}

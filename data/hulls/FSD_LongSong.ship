@@ -1,0 +1,486 @@
+{
+  "hullName": "Clearstream",
+  "hullId": "FSD_LongSong",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/FSD_longsong/FSD_Longsong.png",
+  "style": "PAST_ITEM",
+  "height": 164,
+  "width": 194,
+  "center": [
+    97,
+    91
+  ],
+  "collisionRadius": 158.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 153.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_LSweapon",
+    "FSD_BiomassRefiningMachine"
+  ],
+  "builtInWeapons": {
+    "FSD_particle1": "FSD_LightLauncher",
+    "FSD_particle2": "FSD_LightLauncher",
+    "FSD_particle3": "FSD_LightLauncher",
+    "FSD_particle4": "FSD_LightLauncher",
+    "WS0011": "FSD_LSRpart3",
+    "WS0012": "FSD_LSLpart3",
+    "WS0013": "FSD_LSRWpart",
+    "WS0014": "FSD_LSLWpart",
+    "WS0015": "FSD_LSRpart1",
+    "WS0016": "FSD_LSLpart1",
+    "WS0017": "FSD_LSLpart2",
+    "WS0018": "FSD_LSRpart2",
+    "WS0019": "FSD_LSRantenna2",
+    "WS0020": "FSD_LSLantenna1",
+    "WS0021": "FSD_LSRantenna1",
+    "WS0022": "FSD_LSLantenna2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [
+        -20,
+        0
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [
+        -23,
+        -49
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [
+        -23,
+        49
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [
+        20,
+        -40
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [
+        20,
+        40
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [
+        35,
+        -28
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [
+        35,
+        28
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [
+        54,
+        -16
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [
+        54,
+        16
+      ]
+    },
+    {
+      "id": "FSD_LSW",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        61,
+        -0.5
+      ]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -55.5,
+        -33
+      ]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -55,
+        31.5
+      ]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        85.5,
+        -7.5
+      ],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        85.5,
+        8.5
+      ],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -33,
+        22
+      ]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -33.5,
+        -22
+      ]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -24,
+        79.5
+      ]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -24,
+        -79.5
+      ]
+    },
+    {
+      "id": "WS0019",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        98,
+        -19
+      ],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0020",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        98,
+        19
+      ],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0021",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        80.5,
+        -20.5
+      ],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0022",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        80.5,
+        20.5
+      ],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "FSD_particle1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -0.5,
+      "locations": [
+        -33.5,
+        -69.5
+      ]
+    },
+    {
+      "id": "FSD_particle2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0.5,
+      "locations": [
+        -33.5,
+        69.5
+      ]
+    },
+    {
+      "id": "FSD_particle3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [
+        -41.5,
+        -27.5
+      ]
+    },
+    {
+      "id": "FSD_particle4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [
+        -41.5,
+        27.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -74,
+        27
+      ],
+      "length": 71.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -74,
+        -27
+      ],
+      "length": 71.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -59.5,
+        40.5
+      ],
+      "length": 67.169998,
+      "width": 15.56,
+      "angle": 170,
+      "contrailSize": 15.56,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -59.5,
+        -40.5
+      ],
+      "length": 67.169998,
+      "width": 15.56,
+      "angle": -170,
+      "contrailSize": 15.56,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -50,
+        52
+      ],
+      "length": 44.939999,
+      "width": 13.05,
+      "angle": 160,
+      "contrailSize": 13.05,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -50,
+        -52
+      ],
+      "length": 44.939999,
+      "width": 13.05,
+      "angle": -160,
+      "contrailSize": 13.05,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    -45,
+    6,
+    -90,
+    5,
+    -93,
+    14.5,
+    -75.5,
+    32.5,
+    -63.5,
+    35,
+    -55.5,
+    53.5,
+    -8,
+    98.5,
+    3.5,
+    67.5,
+    61,
+    84,
+    73,
+    76.5,
+    20,
+    46,
+    60.5,
+    20.5,
+    60.5,
+    -20.5,
+    20,
+    -46,
+    73,
+    -76.5,
+    61,
+    -84,
+    3.5,
+    -67.5,
+    -8,
+    -98.5,
+    -55.5,
+    -53.5,
+    -63.5,
+    -35,
+    -75.5,
+    -32.5,
+    -93,
+    -14.5,
+    -90,
+    -5,
+    -45,
+    -6
+  ]
+}

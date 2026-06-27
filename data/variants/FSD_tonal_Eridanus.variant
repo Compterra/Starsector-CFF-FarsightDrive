@@ -1,0 +1,30 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FSD_tonal",
+    "hullMods": [
+        "eccm",
+        "expanded_deck_crew",
+        "frontemitter",
+        "hardenedshieldemitter",
+        "nav_relay",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_tonal_Eridanus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "FSD_Decay",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

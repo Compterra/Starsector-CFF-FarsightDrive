@@ -1,0 +1,64 @@
+{
+    "plugins":{
+		"FSDCombatDataPlugin":"data.everyframe.FSD_CombatDataPlugin",
+    },
+	"designTypeColors":{
+	    "Farsight Drive":[243,160,198,255],
+		"Old Remembrance":[201,171,195,200],
+		"Prosody Reconstruction":[59,201,247,255],
+		"Farsight Drive - Common":[241,128,75,255],
+		"Farsight Drive - Specialized":[84,121,227,255],
+		"Farsight Drive - Ascension":[200,99,233,255]
+	},
+	"graphics":{
+	"intel":{
+	       "FSD_Lana":"graphics/portraits/special/FSD_Lana.png",
+	   },
+	"fx":{
+		  "FSD_ThrowShell":"graphics/missiles/FSD_ThrowShell.png",
+		  "FSD_ManeuveringJet_Sprite":"graphics/hulls/FSD_baiju/FSD_baiju_glow1.png",
+		  
+		  "FSD_FTRing":"graphics/fx/FSD_ring/FSD_FTRing.png",
+		  "FSD_beamfringe":"graphics/fx/FSD_beamfringe.png",
+		  "FSD_delete":"graphics/fx/FSD_delete.png",
+          "FSD_BEparticle":"graphics/fx/FSD_BEparticle.png",
+		  "FSD_auditorium":"graphics/fx/FSD_ring/FSD_auditorium.png",
+		  "FSD_Cocxistence":"graphics/fx/FSD_ring/FSD_Cocxistence.png",
+		  "FSD_Newchimes":"graphics/fx/FSD_ring/FSD_Newchimes.png",
+		  "FSD_prosody":"graphics/fx/FSD_ring/FSD_prosody.png",
+		  "FSD_tonal":"graphics/fx/FSD_ring/FSD_tonal.png",
+		  "FSD_withered_core":"graphics/fx/FSD_ring/FSD_withered_core.png",
+		  "FSD_XC":"graphics/fx/FSD_ring/FSD_XC.png",
+		  
+		  "FSD_font_A-Aleph":"graphics/fx/font/A-Aleph.png",
+		  "FSD_font_B-Bet":"graphics/fx/font/B-Bet.png",
+		  "FSD_font_C-Gimel":"graphics/fx/font/C-Gimel.png",
+		  "FSD_font_D-Dalet":"graphics/fx/font/D-Dalet.png",
+		  "FSD_font_E-He":"graphics/fx/font/E-He.png",
+		  "FSD_font_F-Waw":"graphics/fx/font/F-Waw.png",
+		  "FSD_font_G-Zayin":"graphics/fx/font/G-Zayin.png",
+		  "FSD_font_H-Het":"graphics/fx/font/H-Het.png",
+		  "FSD_font_I-Tet":"graphics/fx/font/I-Tet.png",
+		  "FSD_font_J-Yod":"graphics/fx/font/J-Yod.png",
+		  "FSD_font_K-Kaf":"graphics/fx/font/K-Kaf.png",
+		  "FSD_font_L-Lamed":"graphics/fx/font/L-Lamed.png",
+		  "FSD_font_M-Mem":"graphics/fx/font/M-Mem.png",
+		  "FSD_font_N-Nun":"graphics/fx/font/N-Nun.png",
+		  "FSD_font_O-Samekh":"graphics/fx/font/O-Samekh.png",
+		  "FSD_font_P-Ayin":"graphics/fx/font/P-Ayin.png",
+		  "FSD_font_Q-Pe":"graphics/fx/font/Q-Pe.png",
+		  "FSD_font_R-Tsade":"graphics/fx/font/R-Tsade.png",
+		  "FSD_font_S-Qof":"graphics/fx/font/S-Qof.png",
+		  "FSD_font_T-Resh":"graphics/fx/font/T-Resh.png",
+		  "FSD_font_U-Shin":"graphics/fx/font/U-Shin.png",
+		  "FSD_font_W-Taw":"graphics/fx/font/W-Taw.png",
+		  
+		  "FSD_helicaltrail":"graphics/fx/FSD_helicaltrail.png",
+		  "FSD_Shelltrail_1":"graphics/fx/FSD_Shelltrail_1.png",
+		  "FSD_Shelltrail_2":"graphics/fx/FSD_Shelltrail_2.png",
+		  
+		  "testparticle1":"graphics/fx/nebula_colorless.png",
+		  "testparticle2":"graphics/fx/fx_clouds01.png",		  
+		}
+	}
+}

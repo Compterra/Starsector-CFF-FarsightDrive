@@ -1,0 +1,56 @@
+{
+  "hullName": "Claw",
+  "hullId": "FSD_claw",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_claw.png",
+  "style": "HIGH_TECH",
+  "height": 32,
+  "width": 28,
+  "center": [13, 13],
+  "collisionRadius": 20,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "FSD_RLDetrital"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [5, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, 4],
+      "length": 16,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10, -3],
+      "length": 16,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    18, 0,
+    6, 10,
+    -3, 12,
+    -10, 4,
+    -10, -4,
+    -2, -12,
+    6, -10
+  ]
+}

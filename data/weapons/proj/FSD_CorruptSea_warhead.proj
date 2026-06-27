@@ -1,0 +1,95 @@
+{
+	"id":"FSD_CorruptSea_warhead",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"onHitEffect":"data.combat.FSD_CorruptSeaEffect",
+	"sprite":"",
+	"size":[10,14],	
+	"center":[5,7],
+	"collisionRadius":30,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[94, 17, 17,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":150,
+					 "coreRadius":75, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":200,
+					 "particleColor":[241, 23, 23,255],
+					 "explosionColor":[94, 17, 17,200],
+					 "detailedExplosionFlashColorFringe":[240,158,173,225],
+					 "detailedExplosionFlashRadius":150,
+					 "useDetailedExplosion":true
+					 },
+	"noCollisionWhileFading":true,
+	"useHitGlowWhenDealingDamage":false, # ? look at this
+	"useHitGlowWhenDestroyed":true, # instead of the default explosion
+	"dudProbabilityOnFlameout":0,
+	"fizzleOnReachingWeaponRange":true,					 
+	"armingTime":0,
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration			
+	"glowColor":[94, 17, 17,0],
+	#"glowRadius":125,
+	"glowRadius":0,
+	"engineSpec":{"maxSpeed":800,
+	              "turnAcc":50,
+				  "turnRate":50,
+				  "acc":400,
+				  "dec":0},
+				  "maxFlightTime":4,
+				  "engineSlots":[{"id":"ES1",
+					"loc":[-25.5, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,100,100,0],
+						"engineColor":[94, 17, 17,0],
+						"contrailDuration":1,
+						"contrailWidthMult":1.25f,
+						"contrailWidthAddedFractionAtEnd":4,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						#"contrailColor":[255,100,100,0],
+						"contrailColor":[94, 17, 17,150],
+						"glowSizeMult":0,
+						#"glowAlternateColor":[255,0,0,0],
+						"glowAlternateColor":[94, 17, 17,0],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.0,
+				    "length":40.0,
+				    "angle":180.0},
+					{"id":"ES2",
+					"loc":[-25.5, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,100,100,255],
+						"engineColor":[243,73,130,255],
+						"contrailDuration":0.3,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":0.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":1f,
+						"contrailAngularVelocityMult":0.5f,
+						#"contrailColor":[255,100,100,75],
+						"contrailColor":[245,61,56,75],
+						"glowSizeMult":0,
+						#"glowAlternateColor":[255,0,0,255],
+						"glowAlternateColor":[233,12,130,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.0,
+				    "length":0.0,
+				    "angle":180.0},
+				    ],
+}

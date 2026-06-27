@@ -1,0 +1,28 @@
+{
+	"id":"FSD_plasma",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/FSD_plasma_turret.png",
+	"turretGlowSprite":"graphics/weapons/FSD_plasma_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/FSD_plasma_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/FSD_plasma_hardpoint_glow.png",
+	"glowColor":[206,146,246,255],
+	"turretOffsets":[23.5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[37, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":-34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.15,
+					   "particleCount":30,
+					   "particleColor":[255,100,150,255]},
+	"interruptibleBurst":false,
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"FSD_plasma_shot",  # projectile that will be fired
+	"fireSoundTwo":"plasma_cannon_fire",
+}

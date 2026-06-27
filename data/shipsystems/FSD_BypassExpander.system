@@ -1,0 +1,12 @@
+{
+	"id":"FSD_BypassExpander",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+
+	"statsScript":"data.scripts.shipsystems.FSD_BypassExpander",
+
+    "canUseWhileRightClickSystemOn":true,
+
+	"aiHints":{
+    	}
+}

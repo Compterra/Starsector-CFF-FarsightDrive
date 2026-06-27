@@ -1,0 +1,71 @@
+{
+  "hullName": "Lux",
+  "hullId": "FSD_lux",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_lux.png",
+  "style": "HIGH_TECH",
+  "height": 30,
+  "width": 32,
+  "center": [16, 14],
+  "collisionRadius": 21,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "FSD_RLDetrital"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": 0,
+      "locations": [12, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": 0,
+      "locations": [12, 3]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": 0,
+      "locations": [12, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11.5, 9],
+      "length": 14,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-11.5, -9],
+      "length": 14,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -10, 14,
+    12, 8,
+    12, -8,
+    -10, -14
+  ]
+}

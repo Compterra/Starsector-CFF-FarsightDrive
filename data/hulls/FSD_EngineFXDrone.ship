@@ -1,0 +1,36 @@
+{
+  "hullName": "Engine FX Drone",
+  "hullId": "FSD_EngineFXDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fx/empty.png",
+  "style": "FarSight_Tech",
+  "height": 4,
+  "width": 4,
+  "center": [
+    2,
+    2
+  ],
+  "collisionRadius": 2,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 2,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [
+        0,
+        0
+      ],
+      "length": 110,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    }
+  ],
+  "bounds": []
+}

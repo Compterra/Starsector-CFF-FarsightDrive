@@ -1,0 +1,62 @@
+{
+  "hullName": "Wasp",
+  "hullId": "FSD_wasp",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_wasp_ftr.png",
+  "style": "HIGH_TECH",
+  "height": 21,
+  "width": 18,
+  "center": [9, 11],
+  "collisionRadius": 15,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_RLDetrital"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-7, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, 4],
+      "length": 20,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-7, -4],
+      "length": 20,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    8, 8,
+    -7, -7,
+    -7, 8,
+    9, -7,
+    4, 0
+  ]
+}

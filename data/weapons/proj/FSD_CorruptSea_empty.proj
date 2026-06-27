@@ -1,0 +1,112 @@
+{
+	"id":"FSD_CorruptSea_empty",
+	"specClass":"missile",	
+	"missileType":"NO_AI",
+	"sprite":"graphics/missiles/FSD_CorruptSea_empty.png",
+	"size":[58,63],	
+	"center":[29,31.5],
+	"collisionRadius":60,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":100,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-26, 11],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,100,100,255],
+						"engineColor":[243,73,130,255],
+						"contrailDuration":0.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":1f,
+						"contrailAngularVelocityMult":0.5f,
+						#"contrailColor":[255,100,100,75],
+						"contrailColor":[255,80,120,75],
+						"glowSizeMult":0.5,
+						#"glowAlternateColor":[255,0,0,255],
+						"glowAlternateColor":[233,12,130,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.0,
+				    "length":40.0,
+				    "angle":180.0},
+					{"id":"ES2",
+					"loc":[-26, -11],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,100,100,255],
+						"engineColor":[243,73,130,255],
+						"contrailDuration":0.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":1f,
+						"contrailAngularVelocityMult":0.5f,
+						#"contrailColor":[255,100,100,75],
+						"contrailColor":[255,80,120,75],
+						"glowSizeMult":0.5,
+						#"glowAlternateColor":[255,0,0,255],
+						"glowAlternateColor":[233,12,130,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.0,
+				    "length":40.0,
+				    "angle":180.0},
+					{"id":"ES3",
+					"loc":[-17, 19],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,100,100,255],
+						"engineColor":[243,73,130,255],
+						"contrailDuration":0.3,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":0.25, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						#"contrailColor":[255,100,100,75],
+						"contrailColor":[255,80,120,75],
+						"glowSizeMult":0.75,
+						#"glowAlternateColor":[255,0,0,255],
+						"glowAlternateColor":[233,12,130,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":6.5,
+				    "length":30.0,
+				    "angle":160.0},
+					{"id":"ES4",
+					"loc":[-17, -19],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,100,100,255],
+						"engineColor":[243,73,130,255],
+						"contrailDuration":0.3,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":0.25, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						#"contrailColor":[255,100,100,75],
+						"contrailColor":[255,80,120,75],
+						"glowSizeMult":0.75,
+						#"glowAlternateColor":[255,0,0,255],
+						"glowAlternateColor":[233,12,130,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":6.5,
+				    "length":30.0,
+				    "angle":-160.0}]	    
+}

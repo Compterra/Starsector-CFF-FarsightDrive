@@ -1,0 +1,47 @@
+{
+    "displayName": "Overdrive",
+    "fluxCapacitors": 18,
+    "fluxVents": 0,
+    "hullId": "FSD_delight_core",
+    "hullMods": [
+        "frontemitter",
+        "safetyoverrides",
+        "FSD_UpgradeModule"
+    ],
+    "modules": [
+        {
+            "MODULE_0": "FSD_delight_L-A"
+        },
+        {
+            "MODULE_1": "FSD_delight_R-A"
+        }
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FSD_delight_core-A",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "sabot",
+                "WS0008": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "phasebeam",
+                "WS0002": "phasebeam"
+            }
+        }
+    ]
+}

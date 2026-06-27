@@ -1,0 +1,25 @@
+{
+	"quality":0.5,
+	"displayName":"Heavy Fighter",
+	"hullId":"FSD_broadsword",
+	"variantId":"FSD_broadsword_Fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"FSD_lightmg",
+		 			"WS 002":"FSD_lightmg",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			#"WS 003":"swarmer_fighter",
+		 		   },
+		},
+	],
+}

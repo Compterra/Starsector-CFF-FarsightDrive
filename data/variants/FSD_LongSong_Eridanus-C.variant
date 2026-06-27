@@ -1,0 +1,54 @@
+{
+    "displayName": "Eridanus-C",
+    "fluxCapacitors": 30,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "FSD_LongSong",
+    "hullMods": [
+        "FSD_LSShaftcannon_missile_hullmod",
+        "FSD_UAVForgeFurnaces",
+        "converted_hangar",
+        "defensive_targeting_array",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_LongSong_Eridanus-C",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_Avision",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "FSD_LSW": "FSD_LSShaftcannon_missile",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "FSD_Lightneedler",
+                "WS0005": "FSD_Lightneedler",
+                "WS0007": "FSD_Lightneedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_MEGAGuider",
+                "WS0002": "FSD_MEGAGuider",
+            }
+        },
+    ],
+    "wings": [
+        "FSD_Drone1_wing",
+    ],
+    "modules": [],
+}

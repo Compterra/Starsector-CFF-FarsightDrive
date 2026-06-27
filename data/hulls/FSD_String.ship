@@ -1,0 +1,133 @@
+{
+  "hullName": "Lyric",
+  "hullId": "FSD_String",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/FSD_String.png",
+  "style": "PAST_ITEM",
+  "height": 126,
+  "width": 127,
+  "center": [
+    63,
+    57
+  ],
+  "collisionRadius": 78,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 71.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding",
+    "civgrade"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [
+        -43.5,
+        11
+      ],
+      "length": 62,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -43.5,
+        -11
+      ],
+      "length": 62,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -31.5,
+        27.5
+      ],
+      "length": 48.68,
+      "width": 11.8,
+      "angle": 156.5,
+      "contrailSize": 11.8,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -31.5,
+        -27.5
+      ],
+      "length": 48.68,
+      "width": 11.8,
+      "angle": -156.5,
+      "contrailSize": 11.8,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -27,
+        34.5
+      ],
+      "length": 29.459999,
+      "width": 11.31,
+      "angle": 154,
+      "contrailSize": 11.31,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -27,
+        -34.5
+      ],
+      "length": 29.459999,
+      "width": 11.31,
+      "angle": -154,
+      "contrailSize": 11.31,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    -45,
+    6.5,
+    -57,
+    25.5,
+    -35,
+    27,
+    -28.5,
+    38.5,
+    -15,
+    36,
+    18.5,
+    64,
+    8.5,
+    25,
+    68,
+    2.5,
+    68,
+    -2.5,
+    8.5,
+    -25,
+    18.5,
+    -64,
+    -15,
+    -36,
+    -28.5,
+    -38.5,
+    -35,
+    -27,
+    -57,
+    -25.5,
+    -45,
+    -6.5
+  ]
+}

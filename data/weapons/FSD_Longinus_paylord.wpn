@@ -1,0 +1,28 @@
+{
+	"id":"FSD_Longinus_paylord",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/FSD_Longinus.png",
+	"hardpointSprite":"",	
+	"turretOffsets":[-6, -3],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[30, -3],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":45.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.0,
+					   "particleSizeMin":14.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.2,
+					   "particleCount":15,
+					   "particleColor":[247,166,187,255]},		
+	"glowColor":[247,166,187,225],
+	"autocharge":true,
+	#"interruptibleBurst":true,
+	"projectileSpecId":"FSD_Longinus_paylord_shot",  # projectile that will be fired
+	#"fireSoundOne":"cr_allied_malfunction",
+	"fireSoundTwo":"autopulse_laser_fire",
+}

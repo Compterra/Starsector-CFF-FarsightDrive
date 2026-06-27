@@ -1,0 +1,47 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FSD_witheredR",
+    "hullMods": [
+        "frontemitter",
+        "hardenedshieldemitter",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_witheredR_Eridanus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_Weepingblood",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "FSD_PDLightLauncher",
+                "WS0007": "FSD_PDLightLauncher",
+                "WS0006": "FSD_PDLightLauncher",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_HMG",
+                "WS0005": "FSD_HMG",
+                "WS0004": "FSD_HMG",
+            }
+        },
+    ],
+    "wings": [
+        "FSD_Spear_wing",
+        "FSD_Spear_wing",
+    ],
+    "modules": [],
+}

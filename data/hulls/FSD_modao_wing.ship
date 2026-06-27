@@ -1,0 +1,217 @@
+{
+  "hullName": "Longblade",
+  "hullId": "FSD_modao_wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/wings/FSD_modao.png",
+  "style": "PAST_ITEM",
+  "height": 43,
+  "width": 40,
+  "center": [
+    20,
+    17
+  ],
+  "collisionRadius": 29.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_LightLauncher"
+  ],
+  "builtInWeapons": {
+    "WS0003": "FSD_LightLauncher",
+    "WS0004": "FSD_LightLauncher",
+    "WS0005": "FSD_LightLauncher",
+    "WS0006": "FSD_LightLauncher",
+    "WS0007": "FSD_LightLauncher",
+    "WS0008": "FSD_LightLauncher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        8.5,
+        3.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        8.5,
+        -3.5
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 135,
+      "locations": [
+        -3.5,
+        11.5
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -135,
+      "locations": [
+        -3.5,
+        -11.5
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [
+        -2.5,
+        -12.5
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [
+        -2.5,
+        12.5
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [
+        -4.5,
+        -10.5
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [
+        -4.5,
+        10.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -13,
+        7.5
+      ],
+      "length": 6,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -13,
+        -7.5
+      ],
+      "length": 6,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -12,
+        5.5
+      ],
+      "length": 6,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -12,
+        -5.5
+      ],
+      "length": 6,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -11,
+        3.5
+      ],
+      "length": 6,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -11,
+        -3.5
+      ],
+      "length": 6,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    }
+  ],
+  "bounds": [
+    -13.5,
+    7,
+    -1,
+    17,
+    23.5,
+    5.5,
+    23.5,
+    -5.5,
+    -1,
+    -17,
+    -13.5,
+    -7
+  ]
+}

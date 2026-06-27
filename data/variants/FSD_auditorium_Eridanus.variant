@@ -1,0 +1,33 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 30,
+    "fluxVents": 26,
+    "goalVariant": true,
+    "hullId": "FSD_auditorium",
+    "hullMods": [
+        "frontemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_auditorium_Eridanus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_needler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "FSD_Chaingun",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

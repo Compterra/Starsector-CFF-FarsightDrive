@@ -1,0 +1,31 @@
+{
+	"id":"FSD_XCCannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	#"displayArcRadius":400,
+	#"everyFrameEffect":"data.combat.everyframe.FSD_HESH",
+	"turretSprite":"graphics/weapons/FSD_XC/FSD_XCCannon_t00.png",
+	#"turretGunSprite":"graphics/weapons/FSD_Chaingun_T_recoil.png",
+	"hardpointSprite":"graphics/weapons/FSD_XC/FSD_XCCannon_h00.png",
+	#"hardpointGunSprite":"graphics/weapons/FSD_Chaingun_H_recoil.png",	
+	#"visualRecoil":8.0,  # the gun sprites are only used if this is non-0
+	"numFrames":4,
+	"frameRate":30,
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[16, 0.5],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[87, 3],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":13.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":12.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.2,
+					   "particleCount":20,
+					   "particleColor":[199,165,253,225]},
+	"projectileSpecId":"FSD_XCCannon_shot",  # projectile that will be fired	
+	"fireSoundTwo":"flak_fire",
+}

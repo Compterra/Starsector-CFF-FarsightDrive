@@ -1,0 +1,11 @@
+Farsight Drive 0.4.2.5 Changelog
+
+- Local Codex polish pass: made the crystal infusion campaign script transient for safer save removal, reduced verbose crystal/karma debug logging, and aligned Golgatha generation with Nexerelin Corvus/random-sector behavior.
+- Local Codex lore/text pass: normalized Old Remembrance naming, cleaned the test-mission briefing, filled missing hullmod descriptions, and polished FSD crystal/karma tooltip prose.
+- Local Codex code cleanup pass: quarantined stale prototypes and abandoned hullmods, removed dead Lana helper code, cleaned source-language comments from live source, centralized karma damage-listener registration, and tightened karma cache cleanup.
+- Updated for Starsector 0.98a.
+- Added and revised Farsight Drive ships, weapons, hullmods, campaign content, and test-mission material.
+- Expanded the Reflecting-Light Crystal and karma mechanics, including secondary crystal infestation behavior.
+- Adjusted weapon, missile, fighter, hullmod, and ship-system balance data.
+- Fixed multiple combat-script, visual-effect, and compatibility issues from earlier builds.
+- This file was translated from the original Chinese changelog during the English localization pass.

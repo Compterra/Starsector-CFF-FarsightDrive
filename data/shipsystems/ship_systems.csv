@@ -1,0 +1,23 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Phase Coil,FSD_phasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chronal Burst,FSD_TimeBrust,,,,,,,,3,0.044,0.2,2,,1,,,,,,,,,,,,,graphics/icons/hullsys/phase_cloak.png
+Phase Bypass Expander,FSD_BypassExpander,,,,,,,,2,0.06,,1,,2,,,,,,,,,,,,,
+Reflecting-Light Intranet,FSD_WorldNetwork,100,,,,,,,,,1,,,1,TRUE,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Crystal Bulwark Shield,FSD_Fortress,,,,,,,,3,0.1,0.5,9,0.5,0.2,,,TRUE,,,,,,,,,,graphics/icons/hullsys/phase_cloak.png
+Restorative Lightbolt Order,FSD_RecoverOrder,,,,,,,,,,0.01,0.05,,15,,,,,,,,,,,,,
+Temporal Suspension,FSD_TimeClock,,,,,,,,,,0.8,5,0.8,16,,,,,,,,,,,,,graphics/icons/hullsys/phase_cloak.png
+Biomass Refinery Catalyst,FSD_MissileRack,,,,2500,,,,,,,5,,30,,,,,,,,,,,,,graphics/icons/hullsys/phase_cloak.png
+Wormhole Jump,FSD_Teleport,,,,,,,,4,0.25,0.05,0.01,,0.25,,,,,,,,,,,,,
+Cataclysmic Drive,FSD_CocxisDrive,,,,,,,,,,2,4,2,16,,,,,,,,,,,,,
+Biomass Mine Relay,FSD_mine_strike,,,,,,0.1,,5,0.2,0.25,,0.25,0,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Phasewave Assault Drive,FSD_XCdrive,,,,,,,,,,0.25,4,0.25,10,,,,,,,,,,,,,
+Deep-Phase Rend,FSD_PhasedFlicker,,,,,,,,3,0.166,0.05,0.01,,3,,,,,,,,,,,,,
+Confluence Maneuvering Jets,FSD_ManeuveringJet,,,,,,,,2,0.083,0.25,3,0.15,0.25,,,,,,,,,,,,,
+Overload Sprint,FSD_microburn,1,,,,,,,2,0.25,0.3,0.3,0.3,,,,,,,,TRUE,TRUE,,,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Flux Confluence Veil,FSD_Drone1_System,,,,,,,,,,,2.5,0.5,,,,,,,,,,,,,,
+Heat-Trap Sprint,FSD_HeatTrapSprint,,,,,,,,,,,4,,8,,,,,,,,,,,,,
+Crystal Distortion Burst,FSD_EXBoomer_System,,,,,,,,2,,,0.01,,4,,,,,,,,,,,,,
+Crystal Assault Bloom,FSD_Attacker_System,,,,,,,,3,0.2,,1,,3,,,,,,,,,,,,,

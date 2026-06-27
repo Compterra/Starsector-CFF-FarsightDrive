@@ -1,0 +1,35 @@
+{
+    "id": "FarsightDrive",
+    "name": "Farsight Drive",
+    "author": "Huhu Fox, Kwin, Caihong, PA",
+    "version": {
+        "major": 0,
+        "minor": 4,
+        "patch": "2.6"
+    },
+    "description": "A secretive Eridani biotech power arrives in the Persean Sector with living crystal ships, strange relief fleets, and too many sealed archives.",
+    "gameVersion": "0.98a",
+    "jars": [
+        "jars/FarsightDrive.jar"
+    ],
+    "totalConversion": false,
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib"
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib"
+        },
+        {
+            "id": "shaderLib",
+            "name": "zz GraphicsLib"
+        },
+        {
+            "id": "BoxUtil",
+            "name": "zz BoxUtil"
+        }
+    ],
+    "modPlugin": "data.scripts.Farsight_Drive_ModPlugin"
+}

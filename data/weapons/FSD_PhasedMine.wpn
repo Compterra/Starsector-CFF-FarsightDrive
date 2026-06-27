@@ -1,0 +1,33 @@
+{
+	"id":"FSD_PhasedMine",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	#"displayArcRadius":400,
+	"everyFrameEffect":"data.combat.everyframe.FSD_PhasedMine",
+	"turretSprite":"graphics/weapons/FSD_PhasedMine_turret.png",
+	"turretGlowSprite":"graphics/weapons/FSD_PhasedMine_turret_glow.png",
+	#"turretGunSprite":"graphics/weapons/FSD_Chaingun_T_recoil.png",
+	"hardpointSprite":"graphics/weapons/FSD_PhasedMine_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/FSD_PhasedMine_hardpoint_glow.png",
+	#"hardpointGunSprite":"graphics/weapons/FSD_Chaingun_H_recoil.png",	
+	#"visualRecoil":8.0,  # the gun sprites are only used if this is non-0
+	"glowColor":[242,99,139,200],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[13, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"interruptibleBurst":true,
+	#"muzzleFlashSpec":{"length":13.0,   # only used if animationType = MUZZLE_FLASH
+	#				   "spread":12.0,
+	#				   "particleSizeMin":7.0,
+	#				   "particleSizeRange":14.0,
+	#				   "particleDuration":0.2,
+	#				   "particleCount":20,
+	#				   "particleColor":[199,165,253,0]},
+	"projectileSpecId":"FSD_PM_shot",  # projectile that will be fired	
+	"fireSoundTwo":"flak_fire",
+}

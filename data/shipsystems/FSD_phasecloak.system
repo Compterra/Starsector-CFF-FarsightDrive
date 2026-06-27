@@ -1,0 +1,40 @@
+{
+	"id":"FSD_phasecloak",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+
+	"statsScript":"data.combat.FSD_PhaseCloakStats",
+	"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	"blockActionsWhileChargingDown":false,
+
+	"canNotCauseOverload":true,
+
+	"phaseHighlight":"_glow1",
+	"phaseDiffuse":"_glow2",
+
+
+	"effectColor1":[249,174,174,200],
+	"effectColor2":[253,18,33,100],
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+
+	"engineGlowColor":[249,174,174,175],
+	"engineGlowContrailColor":[253,18,33,50],
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":0.75,
+	"engineGlowGlowMult":0.75,
+
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.25,
+
+	"shipAlpha":1, # handled in stats script
+	#"shipAlpha":0.25,
+
+	"useSound":"system_phase_cloak_activate",
+	#"deactivateSound":"system_phase_cloak_deactivate",
+	"deactivateSound":"system_phase_cloak_deactivate",
+	"outOfUsesSound":"system_phase_cloak_collision",
+}

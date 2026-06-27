@@ -1,0 +1,101 @@
+{
+  "hullName": "Clemency",
+  "hullId": "FSD_Lenient",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/FSD_Lenient.png",
+  "style": "FarSight_Tech",
+  "height": 162,
+  "width": 208,
+  "center": [
+    104,
+    81
+  ],
+  "collisionRadius": 94.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 86.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [
+        -46.5,
+        27.5
+      ],
+      "length": 58,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -46.5,
+        -27.5
+      ],
+      "length": 58,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -39,
+        36
+      ],
+      "length": 39.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -39,
+        -36
+      ],
+      "length": 39.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    }
+  ],
+  "bounds": [
+    -83,
+    3.5,
+    -57,
+    12,
+    -42,
+    36,
+    -1.5,
+    71,
+    22,
+    68.5,
+    79,
+    26,
+    79,
+    -26,
+    22,
+    -68.5,
+    -1.5,
+    -71,
+    -42,
+    -36,
+    -57,
+    -12,
+    -83,
+    -3.5
+  ]
+}

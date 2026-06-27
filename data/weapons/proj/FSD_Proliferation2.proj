@@ -1,0 +1,72 @@
+{
+	"id":"FSD_Proliferation2",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	#"onFireEffect":"com.fs.starfarer.api.impl.combat.dem.DEMEffect",
+	"sprite":"graphics/missiles/FSD_Proliferation2.png",
+	"size":[14,35],	
+	"center":[7,17.5],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	#"destroyedExplosionColor":[255,165,100,255],  # when the missile is destroyed by damage
+	#"explosionColor":[255,165,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionColor":[247,187,207,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":0, # purely visual		
+	"maxFlightTime":10,
+	"engineSpec":{
+                  "maxSpeed":200,
+				  "turnAcc":1500,
+				  "turnRate":200,
+				  "acc":400,
+				  "dec":700},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[248,104,126,225],
+						"contrailDuration":1,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":1, # how far away from engine it starts
+						"contrailColor":[201,141,173,150],
+						"glowSizeMult":2,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":10.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":1500,
+					"minTimeToSplit":1,
+					"canSplitEarly":true,
+					"splitSound":"hurricane_mirv_split",
+					"numShots":50,
+					"damage":50,
+					"impact":5,
+					"emp":150,
+					"damageType":FRAGMENTATION,
+					"hitpoints":750,
+					"arc":180,
+					"arcOffset":180,
+					"evenSpread":true,
+					"spreadSpeed":300,
+					"spreadSpeedRange":360,
+					"projectileSpec":"FSD_Proliferation_warhead",
+					#"emptySpec":"FSD_CorruptSea_empty",
+					"smokeSpec":{"particleSizeMin":30.0,
+								 "particleSizeRange":30.0,
+								 "cloudParticleCount":15,
+								 "cloudDuration":1.0,
+								 "cloudRadius":20.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[175,100,50,200]}
+					}					
+}

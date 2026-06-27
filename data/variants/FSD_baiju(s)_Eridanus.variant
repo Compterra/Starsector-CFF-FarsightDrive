@@ -1,0 +1,49 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 22,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FSD_baiju(s)",
+    "hullMods": [
+        "FSD_LimitationOfTissueHyperplasia",
+        "autorepair",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_baiju(s)_Eridanus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_Chaingun",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "FSD_Weepingblood",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "FSD_Nightpulse",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_FluidCrystal",
+                "WS0004": "FSD_FluidCrystal",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,144 @@
+{
+  "hullName": "Auditorium",
+  "hullId": "FSD_auditorium",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/FSD_auditorium.png",
+  "style": "FarSight_Tech",
+  "height": 262,
+  "width": 306,
+  "center": [154, 154],
+  "collisionRadius": 166,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 155,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight",
+    "ground_support"
+  ],
+  "builtInWings": [
+    "FSD_Drone1_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 239,
+      "angle": -82,
+      "locations": [33, -44]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 239,
+      "angle": 82,
+      "locations": [33, 44]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -8, -6.5,
+        -8, 6.5,
+        4.5, 10.5,
+        4.5, -11
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79, -40.5],
+      "length": 53.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [-79.5, 40.5],
+      "length": 53.5,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [31.5, -115],
+      "length": 99.966797,
+      "width": 21.646233,
+      "angle": -129,
+      "contrailSize": 21.646233,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [31.5, 112],
+      "length": 99.966797,
+      "width": 21.646233,
+      "angle": 129,
+      "contrailSize": 21.646233,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [-119.5, -27.5],
+      "length": 70.305695,
+      "width": 16.686495,
+      "angle": 180,
+      "contrailSize": 16.686495,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [-119, 28],
+      "length": 70.305695,
+      "width": 16.686495,
+      "angle": 180,
+      "contrailSize": 16.686495,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    -107.5, 6.5,
+    -156, 13,
+    -83, 40.5,
+    -106, 57,
+    -45.5, 56.5,
+    -88.5, 75.5,
+    -71, 102.5,
+    -22.5, 98.5,
+    -49.5, 122.5,
+    -19.5, 154.5,
+    25.5, 118.5,
+    23, 148.5,
+    76, 89.5,
+    100, 26.5,
+    41.5, 6.5,
+    41.5, -6.5,
+    100, -26.5,
+    76, -89.5,
+    23, -148.5,
+    25.5, -118.5,
+    -19.5, -154.5,
+    -49.5, -122.5,
+    -22.5, -98.5,
+    -71, -102.5,
+    -88.5, -75.5,
+    -45.5, -56.5,
+    -106, -57,
+    -83, -40.5,
+    -156, -13,
+    -107.5, -6.5
+  ]
+}

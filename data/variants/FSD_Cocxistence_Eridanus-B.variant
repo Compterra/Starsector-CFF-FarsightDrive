@@ -1,0 +1,69 @@
+{
+    "displayName": "Eridanus-B",
+    "fluxCapacitors": 50,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "FSD_Cocxistence",
+    "hullMods": [
+        "auxiliarythrusters",
+        "converted_hangar",
+        "targetingunit",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_Cocxistence_Eridanus-B",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "FSD_DevourerCannonN",
+                "WS0021": "FSD_DevourerCannonN",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "FSD_Decay",
+                "WS0013": "FSD_Decay",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FSD_Decay",
+                "WS0002": "FSD_Decay",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_Avision",
+                "WS0004": "FSD_Avision",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "FSD_HMG",
+                "WS0011": "FSD_HMG",
+                "WS0010": "FSD_HMG",
+                "WS0009": "FSD_HMG",
+                "WS0008": "FSD_HMG",
+                "WS0005": "FSD_HMG",
+                "WS0007": "FSD_HMG",
+                "WS0006": "FSD_HMG",
+            }
+        },
+    ],
+    "wings": [
+        "FSD_CelestrailArrow_wing",
+    ],
+    "modules": [],
+}

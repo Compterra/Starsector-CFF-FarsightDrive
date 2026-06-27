@@ -1,0 +1,27 @@
+{
+	"id":"FSD_needler",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/FSD_EntrobeamL_turret.png",
+	"turretGlowSprite":"graphics/weapons/FSD_EntrobeamL_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/FSD_EntrobeamL_hardpoint.png",
+	"hardpointGlowSprite":"graphics/weapons/FSD_EntrobeamL_hardpoint_glow.png",
+	"turretOffsets":[21, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[29, 0],
+	"hardpointAngleOffsets":[0],
+	"glowColor":[249,149,208,255],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":33.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":17,
+					   "particleColor":[249,149,208,255]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"FSD_needler_shot",  # projectile that will be fired
+	"fireSoundTwo":"needler_fire",
+}

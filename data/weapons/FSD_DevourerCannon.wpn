@@ -1,0 +1,30 @@
+{
+	"id":"FSD_DevourerCannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/FSD_DevourerCannon/FSD_DevourerCannon_base.png",
+	"turretGlowSprite":"graphics/weapons/FSD_DevourerCannon/FSD_DevourerCannon_glow.png",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/weapons/FSD_DevourerCannon/FSD_DevourerCannon_glow.png",	
+	"turretOffsets":[55, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[55, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":45.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.0,
+					   "particleSizeMin":14.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.2,
+					   "particleCount":15,
+					   "particleColor":[247,166,187,255]},		
+	"glowColor":[247,166,187,225],
+	"autocharge":true,
+	#"interruptibleBurst":true,
+	"projectileSpecId":"FSD_DevourerCannon_shot",  # projectile that will be fired
+	#"fireSoundOne":"cr_allied_malfunction",
+	"fireSoundTwo":"autopulse_laser_fire",
+}

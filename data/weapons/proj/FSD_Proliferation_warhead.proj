@@ -1,0 +1,50 @@
+{
+	"id":"FSD_Proliferation_warhead",
+	"specClass":"missile",	
+	"missileType":"HEATSEEKER",
+	"sprite":"graphics/missiles/FSD_Lightshell.png",
+	"size":[8,12],	
+	"center":[4,6],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[251,106,186,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"reduceDamageWhileFading":true,
+	"useHitGlowWhenDestroyed":true,
+	"fizzleOnReachingWeaponRange":true,
+	"dudProbabilityOnFlameout":0,
+	"fadeTime":0.02, # fadeout duration
+	"glowColor":[250,204,229,75],
+	"glowRadius":10,
+	"maxFlightTime":15,
+	"engineSpec":{"turnAcc":1720,
+				  "turnRate":300,
+				  "acc":2500,
+				  "dec":50,
+				  "maxSpeed":750},
+	#"engineSpec":{"turnAcc":240,
+	#			  "turnRate":120,
+	#			  "acc":400,
+	#			  "dec":400},				  
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[0,0,0,0],
+						"glowSizeMult":1,
+						"glowAlternateColor":[249,185,221,75],
+						"contrailDuration":0.5,
+						"contrailWidthMult":0.75,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3.5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[253,176,235,35],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

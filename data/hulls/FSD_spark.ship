@@ -1,0 +1,78 @@
+{
+  "hullName": "Spark",
+  "hullId": "FSD_spark",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_spark.png",
+  "style": "HIGH_TECH",
+  "height": 24,
+  "width": 30,
+  "center": [15, 12],
+  "collisionRadius": 19,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 19,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "FSD_RLDetrital"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 270,
+      "angle": 0,
+      "locations": [3, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 200,
+      "angle": 20,
+      "locations": [6, 8]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 220,
+      "angle": -20,
+      "locations": [6, -7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6.5, 8.5],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-6.5, -8.5],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10, 0],
+      "length": 20,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -5, 16,
+    11, 0,
+    -5, -15
+  ]
+}

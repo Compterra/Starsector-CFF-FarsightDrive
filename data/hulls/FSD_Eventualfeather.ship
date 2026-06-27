@@ -1,0 +1,261 @@
+{
+  "hullName": "Expiation",
+  "hullId": "FSD_Eventualfeather",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/hulls/FSD_Eventualfeather/FSD_Eventualfeather.png",
+  "style": "FarSight_Tech",
+  "height": 313,
+  "width": 302,
+  "center": [
+    151,
+    162.5
+  ],
+  "collisionRadius": 178.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 163,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight",
+    "phasefield",
+    "FSD_IonBurst"
+  ],
+  "builtInWeapons": {
+    "WS0008": "FSD_DevourerCannon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        5.5,
+        0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 159,
+      "locations": [
+        -26,
+        58.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -159,
+      "locations": [
+        -26,
+        -58.5
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -167,
+      "locations": [
+        -38,
+        -37.5
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 167,
+      "locations": [
+        -38,
+        37.5
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [
+        117.5,
+        -65
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [
+        109.5,
+        -80
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [
+        101.5,
+        -94
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        47,
+        -126.5
+      ],
+      "length": 78.029999,
+      "width": 17.719999,
+      "angle": -125,
+      "contrailSize": 17.719999,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        47,
+        126.5
+      ],
+      "length": 78.029999,
+      "width": 17.719999,
+      "angle": 125,
+      "contrailSize": 17.719999,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        3,
+        126.5
+      ],
+      "length": 110.25,
+      "width": 17.219999,
+      "angle": 143.5,
+      "contrailSize": 17.219999,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        3,
+        -126.5
+      ],
+      "length": 110.25,
+      "width": 17.219999,
+      "angle": -143.5,
+      "contrailSize": 17.219999,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -37,
+        -118.5
+      ],
+      "length": 172.550003,
+      "width": 29.24,
+      "angle": -154,
+      "contrailSize": 29.24,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -37,
+        118.5
+      ],
+      "length": 172.550003,
+      "width": 29.24,
+      "angle": 154,
+      "contrailSize": 29.24,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    -164,
+    3.5,
+    -57,
+    16,
+    -24.5,
+    74.5,
+    -111.5,
+    123,
+    -42,
+    114,
+    -44,
+    144,
+    -2.5,
+    124,
+    -3.5,
+    154,
+    37.5,
+    128,
+    52,
+    149,
+    128.5,
+    69.5,
+    153,
+    26,
+    110.5,
+    42.5,
+    45,
+    43,
+    85.5,
+    8.5,
+    85.5,
+    -8.5,
+    45,
+    -43,
+    110.5,
+    -42.5,
+    125.5,
+    -58,
+    52,
+    -149,
+    37.5,
+    -128,
+    -3.5,
+    -154,
+    -2.5,
+    -124,
+    -44,
+    -144,
+    -42,
+    -114,
+    -111.5,
+    -123,
+    -24.5,
+    -74.5,
+    -57,
+    -16,
+    -164,
+    -3.5
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  
+  "Farsight_Drive_ENGINE": {
+    "engineColor": [254,165,211,220],
+    "engineCampaignColor": [248,186,190,220],
+    "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1.5,
+		"contrailWidthMult":1f,
+		"contrailWidthAddedFractionAtEnd":-0.8f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":2.25f,
+		"contrailAngularVelocityMult":0f,
+    "contrailColor": [244,42,113,200],
+    "contrailCampaignColor": [214,0,192,200],
+    "glowSizeMult": 1.5f,
+    "glowAlternateColor": [241,223,239,150],
+    "type": "GLOW",
+    "glowSprite": "graphics/fx/FSD_engineglow32.png",
+	"glowOutline":"graphics/fx/FSD_engineflame32.png",
+    "omegaMode": true
+  },
+  "Farsight_Drive_ENGINEII": {
+    "engineColor": [254,165,211,150],
+    "engineCampaignColor": [248,186,190,220],
+    "contrailParticleSizeMult": 0.02,
+    "contrailParticleDuration": 0.1,
+    "contrailParticleFinalSizeMult": 0.08,
+    "contrailMaxSpeedMult": 0.04,
+    "contrailAngularVelocityMult": 0.5,
+    "contrailColor": [244,42,113,100],
+    "contrailCampaignColor": [214,0,192,200],
+    "glowSizeMult": 0.5,
+    #"glowAlternateColor": [241,223,239,200],
+	"glowAlternateColor": [168,97,209,255],
+    "type": "GLOW",
+	#"glowOutline":"graphics/fx/engineflame32b.png",
+    "glowSprite": "graphics/fx/FSD_engineglow32b.png",
+    "omegaMode": true
+  },
+  "Farsight_Drive_ENGINEIII": {
+    "engineColor": [0,0,0,0],
+    "engineCampaignColor": [0,0,0,0],
+    "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1,
+		"contrailWidthMult":1f,
+		"contrailWidthAddedFractionAtEnd":-0.5f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":1, # min segment length, in pixels
+		"contrailMaxSpeedMult":2.25f,
+		"contrailAngularVelocityMult":1.5f,
+    "contrailColor": [119,0,255,200],
+    "contrailCampaignColor": [119,0,255,200],
+    "glowSizeMult": 0.15f,
+    "glowAlternateColor": [152,91,220,50],
+    "type": "GLOW",
+    "glowSprite": "graphics/fx/FSD_engineglow32(1).png",
+	"glowOutline":"graphics/fx/FSD_engineflame32-orig(1).png",
+    "omegaMode": true
+  },
+    "Farsight_Drive_ENGINEVI": {
+    "engineColor": [254,165,211,150],
+    "engineCampaignColor": [248,186,190,220],
+    "contrailParticleSizeMult": 0.02,
+    "contrailParticleDuration": 0.1,
+    "contrailParticleFinalSizeMult": 0.08,
+    "contrailMaxSpeedMult": 0.04,
+    "contrailAngularVelocityMult": 0.5,
+    "contrailColor": [244,42,113,100],
+    "contrailCampaignColor": [214,0,192,200],
+    "glowSizeMult": 0.15,
+    "glowAlternateColor": [241,223,239,100],
+	#"glowAlternateColor": [168,97,209,255],
+    "type": "GLOW",
+	#"glowOutline":"graphics/fx/engineflame32b.png",
+    "glowSprite": "graphics/fx/FSD_engineglow32b.png",
+    "omegaMode": true
+  },
+}

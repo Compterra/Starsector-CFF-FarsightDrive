@@ -1,0 +1,588 @@
+{
+  "hullName": "Equilibrium",
+  "hullId": "FSD_withered_core",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/hulls/FSD_withered/FSD_withered_core.png",
+  "style": "FarSight_Tech",
+  "height": 460,
+  "width": 362,
+  "center": [
+    181,
+    254
+  ],
+  "collisionRadius": 326,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 350,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight",
+    "FSD_RLIntranet",
+    "FSD_OverrunPosition"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [
+        82,
+        36
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [
+        82,
+        -36
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -100,
+      "locations": [
+        -9,
+        -101
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": -160,
+      "locations": [
+        -33,
+        -94
+      ]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        30,
+        93,
+        24,
+        83
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        19.5,
+        70.5,
+        21,
+        63
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        21,
+        45,
+        19,
+        37
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        30,
+        11,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "MODULE_1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        63.5,
+        -138
+      ]
+    },
+    {
+      "id": "MODULE_0",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        63.5,
+        138
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 100,
+      "locations": [
+        -9,
+        101
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": 160,
+      "locations": [
+        -33,
+        94
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 255,
+      "angle": 180,
+      "locations": [
+        -35,
+        0
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [
+        89,
+        -64
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [
+        89,
+        64
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -79,
+        -110.5
+      ],
+      "length": 112.809998,
+      "width": 24.190001,
+      "angle": -170,
+      "contrailSize": 24.190001,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -79,
+        110.5
+      ],
+      "length": 112.809998,
+      "width": 24.190001,
+      "angle": 170,
+      "contrailSize": 24.190001,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -46.5,
+        -119.5
+      ],
+      "length": 98.550003,
+      "width": 27.18,
+      "angle": -156,
+      "contrailSize": 27.18,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -46.5,
+        119.5
+      ],
+      "length": 98.550003,
+      "width": 27.18,
+      "angle": 156,
+      "contrailSize": 27.18,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -17,
+        -129
+      ],
+      "length": 74.098709,
+      "width": 13.803038,
+      "angle": -133,
+      "contrailSize": 13.803038,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -17,
+        129
+      ],
+      "length": 74.098709,
+      "width": 13.803038,
+      "angle": 133,
+      "contrailSize": 13.803038,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -76.5,
+        70
+      ],
+      "length": 94.768654,
+      "width": 18.044676,
+      "angle": 178.5,
+      "contrailSize": 18.044676,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -76.5,
+        -70
+      ],
+      "length": 94.768654,
+      "width": 18.044676,
+      "angle": -178.5,
+      "contrailSize": 18.044676,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -74,
+        62.5
+      ],
+      "length": 63.89954,
+      "width": 9.348594,
+      "angle": 173,
+      "contrailSize": 9.348594,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -74,
+        -62.5
+      ],
+      "length": 63.89954,
+      "width": 9.348594,
+      "angle": -173,
+      "contrailSize": 9.348594,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -74,
+        77
+      ],
+      "length": 63.89954,
+      "width": 9.348594,
+      "angle": -177,
+      "contrailSize": 9.348594,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -74,
+        -77
+      ],
+      "length": 63.89954,
+      "width": 9.348594,
+      "angle": 177,
+      "contrailSize": 9.348594,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -73,
+        69.5
+      ],
+      "length": 10.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEVI"
+    },
+    {
+      "location": [
+        -73,
+        -69.5
+      ],
+      "length": 10.5,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEVI"
+    },
+    {
+      "location": [
+        -11,
+        131.5
+      ],
+      "length": 55.609177,
+      "width": 6.28318,
+      "angle": 137.5,
+      "contrailSize": 6.28318,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -11,
+        -131.5
+      ],
+      "length": 55.609177,
+      "width": 6.28318,
+      "angle": -137.5,
+      "contrailSize": 6.28318,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -19.5,
+        123
+      ],
+      "length": 55.609177,
+      "width": 6.28318,
+      "angle": 129.5,
+      "contrailSize": 6.28318,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -19.5,
+        -123
+      ],
+      "length": 55.609177,
+      "width": 6.28318,
+      "angle": -129.5,
+      "contrailSize": 6.28318,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -19,
+        127
+      ],
+      "length": 16.585772,
+      "width": 2.156081,
+      "angle": 135,
+      "contrailSize": 2.156081,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -19,
+        -127
+      ],
+      "length": 16.585772,
+      "width": 2.156081,
+      "angle": -135,
+      "contrailSize": 2.156081,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -14.5,
+        131.5
+      ],
+      "length": 16.585772,
+      "width": 2.156081,
+      "angle": 137.5,
+      "contrailSize": 2.156081,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -14.5,
+        -131.5
+      ],
+      "length": 16.585772,
+      "width": 2.156081,
+      "angle": -137.5,
+      "contrailSize": 2.156081,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -16,
+        128
+      ],
+      "length": 7.83,
+      "width": 14.13,
+      "angle": 137.5,
+      "contrailSize": 14.13,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEVI"
+    },
+    {
+      "location": [
+        -15,
+        -127
+      ],
+      "length": 7.83,
+      "width": 14.13,
+      "angle": -137.5,
+      "contrailSize": 14.13,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEVI"
+    }
+  ],
+  "bounds": [
+    -255.5,
+    6,
+    -107.5,
+    23,
+    -41.5,
+    53,
+    -82,
+    60,
+    -78.5,
+    84.5,
+    -127,
+    110,
+    -84.5,
+    107.5,
+    -82,
+    122,
+    -52.5,
+    117.5,
+    -49,
+    127,
+    -26.5,
+    126.5,
+    -11.5,
+    136.5,
+    11.5,
+    133,
+    12.5,
+    167,
+    50,
+    165,
+    85,
+    141.5,
+    73,
+    110,
+    96,
+    80.5,
+    93,
+    43,
+    116,
+    20.5,
+    116,
+    -20.5,
+    93,
+    -43,
+    96,
+    -80.5,
+    73,
+    -110,
+    85,
+    -141.5,
+    50,
+    -165,
+    12.5,
+    -167,
+    11.5,
+    -133,
+    -11.5,
+    -136.5,
+    -26.5,
+    -126.5,
+    -49,
+    -127,
+    -52.5,
+    -117.5,
+    -82,
+    -122,
+    -84.5,
+    -107.5,
+    -127,
+    -110,
+    -78.5,
+    -84.5,
+    -82,
+    -60,
+    -41.5,
+    -53,
+    -107.5,
+    -23,
+    -255.5,
+    -6
+  ]
+}

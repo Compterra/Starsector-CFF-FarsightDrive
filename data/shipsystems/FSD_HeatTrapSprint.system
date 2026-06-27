@@ -1,0 +1,11 @@
+{
+	"id":"FSD_HeatTrapSprint",
+	"type":"WEAPON",
+    "aiType":"FLARE_JAMMER",
+
+	"statsScript":"data.scripts.shipsystems.FSD_HeatTrapSprint",
+    "weaponDataId":"FSD_flarelauncher",
+
+	"useSound":"",
+	"outOfUsesSound":"",
+}

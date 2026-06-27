@@ -1,0 +1,106 @@
+{
+  "hullName": "Chimes",
+  "hullId": "FSD_chimes",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/FSD_chimes/FSD_chimes.png",
+  "style": "PAST_ITEM",
+  "height": 115,
+  "width": 138,
+  "center": [69, 69],
+  "collisionRadius": 76,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 74,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [22, -18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [22, 18]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, 17.5],
+      "length": 57.476193,
+      "width": 13.998166,
+      "angle": 156.5,
+      "contrailSize": 13.998166,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [-27, -17.5],
+      "length": 57.476193,
+      "width": 13.998166,
+      "angle": -156.5,
+      "contrailSize": 13.998166,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [-4, 44],
+      "length": 38.890636,
+      "width": 13.966871,
+      "angle": 138.5,
+      "contrailSize": 13.966871,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [-4, -44],
+      "length": 38.890636,
+      "width": 13.966871,
+      "angle": -138.5,
+      "contrailSize": 13.966871,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    -69, 3,
+    -29.5, 8,
+    -29, 23,
+    -47, 35,
+    -36, 46.5,
+    -10.5, 37.5,
+    1, 50,
+    -1.5, 60.5,
+    11.5, 71.5,
+    28.5, 25,
+    28.5, -25,
+    11.5, -71.5,
+    -1.5, -60.5,
+    1, -50,
+    -10.5, -37.5,
+    -36, -46.5,
+    -47, -35,
+    -29, -23,
+    -29.5, -8,
+    -69, -3
+  ]
+}

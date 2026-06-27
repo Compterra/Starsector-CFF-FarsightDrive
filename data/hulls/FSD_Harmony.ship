@@ -1,0 +1,113 @@
+{
+  "hullName": "Concordance",
+  "hullId": "FSD_Harmony",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/FSD_Harmony/FSD_Harmony.png",
+  "style": "PAST_ITEM",
+  "height": 109,
+  "width": 126,
+  "center": [
+    63,
+    65
+  ],
+  "collisionRadius": 77,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 71,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "FSD_PhasedwaveAnchor"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [
+        5.5,
+        -47.5
+      ],
+      "length": 31.791988,
+      "width": 10.250743,
+      "angle": -154,
+      "contrailSize": 10.250743,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        5.5,
+        47.5
+      ],
+      "length": 31.791988,
+      "width": 10.250743,
+      "angle": 154,
+      "contrailSize": 10.250743,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        12.5,
+        55.5
+      ],
+      "length": 31.610001,
+      "width": 10.19,
+      "angle": 153,
+      "contrailSize": 10.19,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        12.5,
+        -55.5
+      ],
+      "length": 31.610001,
+      "width": 10.19,
+      "angle": -153,
+      "contrailSize": 10.19,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    -30.5,
+    9.5,
+    -63,
+    20,
+    -65,
+    33,
+    -17,
+    37.5,
+    11.5,
+    62.5,
+    26.5,
+    63,
+    44,
+    40,
+    25,
+    20.5,
+    31,
+    6.5,
+    31,
+    -6.5,
+    25,
+    -20.5,
+    44,
+    -40,
+    26.5,
+    -63,
+    11.5,
+    -62.5,
+    -17,
+    -37.5,
+    -65,
+    -33,
+    -63,
+    -20,
+    -30.5,
+    -9.5
+  ]
+}

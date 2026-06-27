@@ -1,0 +1,66 @@
+{
+	"id":"FSD_Proliferation1",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/missiles/FSD_Proliferation1.png",
+	"size":[14,35],	
+	"center":[7,17.5],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[249,113,162,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":300,
+				  "acc":400,
+				  "dec":400},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[248,104,126,225],
+						"contrailDuration":1,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":1, # how far away from engine it starts
+						"contrailColor":[201,141,173,150],
+						"glowSizeMult":2,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":10.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":2000,
+					"minTimeToSplit":1,
+					"canSplitEarly":true,
+					"splitSound":"hurricane_mirv_split",
+					"numShots":1,
+					"damage":500,
+					"impact":5,
+					"emp":0,
+					"damageType":FRAGMENTATION,
+					"hitpoints":600,
+					"arc":0,
+					"arcOffset":0,
+					"evenSpread":true,
+					"spreadSpeed":0,
+					"spreadSpeedRange":50,
+					"projectileSpec":"FSD_Proliferation2",
+					"emptySpec":"FSD_Proliferation_cover",
+					"smokeSpec":{"particleSizeMin":10.0,
+								 "particleSizeRange":10.0,
+								 "cloudParticleCount":13,
+								 "cloudDuration":1.5,
+								 "cloudRadius":12.0,
+								 "blowbackParticleCount":3,
+								 "blowbackDuration":0.5,
+								 "blowbackLength":1,
+								 "blowbackSpread":0.2,
+								 "particleColor":[119,44,85,200]}
+					}				    
+}

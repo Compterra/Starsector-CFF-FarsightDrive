@@ -1,0 +1,88 @@
+{
+  "hullName": "Buffalo",
+  "hullId": "FSD_Buffalo",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/FSD_Buffalo.png",
+  "style": "PAST_ITEM",
+  "height": 148,
+  "width": 100,
+  "center": [50, 74],
+  "collisionRadius": 96.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 86,
+  "viewOffset": 0,
+  "builtInMods": [
+      "efficiency_overhaul"
+    ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [56, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-70.5, 24.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-70.5, -24.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71.5, 15.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71.5, -15.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72.5, 6.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72.5, -6.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -72.5, 27,
+    -43, 45.5,
+    57.5, 45,
+    72.5, 11.5,
+    72.5, -11.5,
+    57.5, -45,
+    -43, -45.5,
+    -72.5, -27
+  ]
+}

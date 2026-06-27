@@ -1,0 +1,61 @@
+{
+    "music": {
+        "FSD_theme": [
+            {
+                "file": "FSD_neutral.ogg",
+                "source": "sounds/music/",
+                "volume": 0.5,
+                "randomStart": false
+            }
+        ],
+        "FSD_market_hostile": [
+            {
+                "file": "FSD_neutral.ogg",
+                "source": "sounds/music/",
+                "volume": 0.5,
+                "randomStart": true
+            }
+        ],
+        "FSD_market_neutral": [
+            {
+                "file": "FSD_neutral.ogg",
+                "source": "sounds/music/",
+                "volume": 0.5,
+                "randomStart": true
+            }
+        ],
+        "FSD_market_friendly": [
+            {
+                "file": "FSD_friendly.ogg",
+                "source": "sounds/music/",
+                "volume": 0.5,
+                "randomStart": true
+            }
+        ],
+        "FSD_encounter_hostile": [
+            {
+                "file": "FSD_neutral.ogg",
+                "source": "sounds/music/",
+                "volume": 0.5,
+                "randomStart": true
+            }
+        ],
+        "FSD_encounter_neutral": [
+            {
+                "file": "FSD_neutral.ogg",
+                "source": "sounds/music/",
+                "volume": 0.5,
+                "randomStart": true
+            }
+        ],
+        "FSD_encounter_friendly": [
+            {
+                "file": "FSD_friendly.ogg",
+                "source": "sounds/music/",
+                "volume": 0.5,
+                "randomStart": true
+            }
+        ]
+    }
+    
+}

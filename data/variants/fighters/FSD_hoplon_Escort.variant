@@ -1,0 +1,23 @@
+{
+  "variantId": "FSD_hoplon_Escort",
+  "hullId": "FSD_hoplon",
+  "displayName": "Rocket Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "FSD_annihilator_fighter",
+        "WS 004": "FSD_annihilator_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

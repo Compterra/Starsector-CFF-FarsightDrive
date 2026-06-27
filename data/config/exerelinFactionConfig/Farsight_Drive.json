@@ -1,0 +1,27 @@
+{
+  "playableFaction":true,
+  "corvusCompatible":true,
+  "dropPrisoners":false,
+  "noRandomizeRelations":true,
+  "startShipsSolo": [["FSD_Newchimes_Eridanus" ]],
+    "startShipsCombatSmall": [["FSD_tonal_Eridanus","FSD_Newchimes_Eridanus","FSD_Buffalo_Eridanus"]],
+  "startShipsTradeSmall": [["FSD_tonal_Eridanus","FSD_Newchimes_Eridanus","FSD_Lenient_Eridanus","FSD_Buffalo_Eridanus"]],
+  "startShipsCombatLarge": [["FSD_XC_Eridanus-A","FSD_baiju_Eridanus-A","FSD_storm_Eridanus"]],
+  "startShipsTradeLarge": [["FSD_auditorium_Eridanus","FSD_Lenient_Eridanus","FSD_storm_Eridanus","FSD_prosody_Eridanus"]],
+ "startSpecialItems":[
+      [["Farsight_Drive_bp_package", ""]],
+  ],
+   "industrySeeds": [
+    {"id": "megaport", "mult": 0.1},
+    {"id": "commerce", "mult": 0.1},
+     {"id": "waystation", "mult": 0.1},
+  ],
+   "bonusSeeds": [
+    {"id": "nanoforge_pristine", "count": 1},
+     {"id": "fullerene_spool", "count": 1},
+    {"id": "aiCore_station", "count": 2, "mult": 0.2},
+    {"id": "aiCore_military", "mult": 0.25},
+    {"id": "aiCore_heavyindustry", "count": 1},
+    {"id": "aiCore_any", "mult": 2.5},
+  ],
+}

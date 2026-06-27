@@ -1,0 +1,221 @@
+{
+  "hullName": "Delight",
+  "hullId": "FSD_delight_core",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/FSD_delight/FSD_delight_core.png",
+  "style": "FarSight_Tech",
+  "height": 298,
+  "width": 188,
+  "center": [
+    94,
+    128
+  ],
+  "collisionRadius": 186.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 175,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_ReflectLight"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 98,
+      "angle": 36,
+      "locations": [
+        -1,
+        39
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 98,
+      "angle": -36,
+      "locations": [
+        -1,
+        -39
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": 135,
+      "locations": [
+        -24,
+        31
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 143,
+      "angle": -135,
+      "locations": [
+        -24,
+        -31
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [
+        -6.5,
+        0
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 35,
+      "angle": 0,
+      "locations": [
+        38.5,
+        0
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [
+        21.5,
+        -55
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [
+        21.5,
+        55
+      ]
+    },
+    {
+      "id": "MODULE_1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        -7,
+        -60
+      ]
+    },
+    {
+      "id": "MODULE_0",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        -7,
+        60
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -57,
+        40
+      ],
+      "length": 32,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -57,
+        -40
+      ],
+      "length": 32,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -65,
+        -28.5
+      ],
+      "length": 68,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -65,
+        28.5
+      ],
+      "length": 68,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    -111.5,
+    8,
+    -73,
+    25.5,
+    -54,
+    48.5,
+    27,
+    75.5,
+    14,
+    32,
+    168,
+    6,
+    168,
+    -6,
+    14,
+    -32,
+    27,
+    -75.5,
+    -54,
+    -48.5,
+    -73,
+    -25.5,
+    -111.5,
+    -8
+  ]
+}

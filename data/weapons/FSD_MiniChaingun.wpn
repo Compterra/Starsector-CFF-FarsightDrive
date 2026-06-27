@@ -1,0 +1,32 @@
+{
+	"id":"FSD_MiniChaingun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+    "mountTypeOverride": "HYBRID",	
+	"size":"SMALL",
+	#"displayArcRadius":400,
+	#"everyFrameEffect":"data.combat.everyframe.FSD_MiniHESH",
+	"turretSprite":"graphics/weapons/FSD_Chaingun/FSD_MiniChaingun_t00.png",
+	#"turretGunSprite":"graphics/weapons/FSD_Chaingun_T_recoil.png",
+	"hardpointSprite":"graphics/weapons/FSD_Chaingun/FSD_MiniChaingun_h00.png",
+	#"hardpointGunSprite":"graphics/weapons/FSD_Chaingun_H_recoil.png",	
+	#"visualRecoil":8.0,  # the gun sprites are only used if this is non-0
+	"numFrames":4,
+	"frameRate":20,
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[9.5, 2],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[16.5, 2],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":8.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":1.5,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.2,
+					   "particleCount":20,
+					   "particleColor":[199,165,253,225]},
+	"projectileSpecId":"FSD_MiniChaingun_shot",  # projectile that will be fired	
+	"fireSoundTwo":"flak_fire",
+}

@@ -1,0 +1,308 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"FSD_prosody_Eridanus":0.15,
+		"FSD_tonal_Eridanus":0.15,
+		"FSD_chimes_Standard":0.15,
+		"FSD_Newchimes_Eridanus":0.15,
+		"FSD_prosody-A":0.15,		
+		
+		"FSD_storm_Eridanus":0.1,
+		"FSD_FallThought_Eridanus":0.05,
+	},
+	"combatSmall":{
+		"FSD_prosody_Eridanus":0.15,
+		"FSD_tonal_Eridanus":0.15,
+		"FSD_chimes_Standard":0.15,
+		"FSD_Newchimes_Eridanus":0.15,
+		"FSD_prosody-A":0.15,				
+		
+		"FSD_storm_Eridanus":0.1,
+		"FSD_delight_core_Eridanus":0.1,
+		"FSD_FallThought_Eridanus":0.05,
+	},
+	"combatMedium":{
+		"FSD_prosody_Eridanus":0.05,
+		"FSD_tonal_Eridanus":0.05,
+		"FSD_chimes_Standard":0.05,
+		"FSD_Newchimes_Eridanus":0.05,
+		"FSD_prosody-A":0.15,				
+		
+		"FSD_storm_Eridanus":0.2,
+		"FSD_delight_core_Eridanus":0.2,
+		"FSD_FallThought_Eridanus":0.1,
+		
+		"FSD_baiju(s)_Eridanus":0.03,
+		"FSD_LongSong_Eridanus-A":0.02,
+		"FSD_LongSong_Eridanus-B":0.02,
+		"FSD_LongSong_Eridanus-C":0.02,
+		"FSD_stream_Eridanus":0.02,
+		"FSD_stream_Guard":0.02,
+		"FSD_stream-A":0.02,
+		"FSD_XC_Eridanus-A":0.03,
+		"FSD_XC_Eridanus-B":0.03,
+		"FSD_baiju_Eridanus-A":0.03,
+		"FSD_baiju_Eridanus-B":0.03,
+
+		
+	},
+	"combatLarge":{
+		"FSD_withered_core_Eridanus":0.06,
+		"FSD_Cocxistence_Eridanus-A":0.06,
+		"FSD_Cocxistence_Eridanus-B":0.06,
+		"FSD_Eventualfeather_Eridanus":0.06,
+		"FSD_withered_Assault":0.06,
+		"FSD_withered_Standard":0.06,
+		
+		"FSD_prosody_Eridanus":0.02,
+		"FSD_tonal_Eridanus":0.02,
+		"FSD_chimes_Standard":0.02,
+		"FSD_Newchimes_Eridanus":0.02,
+		"FSD_prosody-A":0.15,				
+		
+		"FSD_storm_Eridanus":0.075,
+		"FSD_delight_core_Eridanus":0.07,
+		"FSD_delight_core-A":0.07,		
+		"FSD_FallThought_Eridanus":0.05,
+		
+		"FSD_baiju(s)_Eridanus":0.06,
+		"FSD_LongSong_Eridanus-A":0.04,
+		"FSD_LongSong_Eridanus-B":0.04,
+		"FSD_LongSong_Eridanus-C":0.04,
+		"FSD_stream_Eridanus":0.03,
+		"FSD_stream_Guard":0.03,
+		"FSD_stream-A":0.02,
+		"FSD_XC_Eridanus-A":0.06,
+		"FSD_XC_Eridanus-B":0.06,
+		"FSD_baiju_Eridanus-B":0.06,
+		"FSD_baiju_Eridanus-A":0.06,
+
+
+	},
+	"combatCapital":{
+		"FSD_withered_core_Eridanus":0.09,
+		"FSD_Cocxistence_Eridanus-A":0.09,
+		"FSD_Cocxistence_Eridanus-B":0.09,
+		"FSD_Eventualfeather_Eridanus":0.09,
+		"FSD_withered_Assault":0.09,
+		"FSD_withered_Standard":0.09,
+		
+		"FSD_prosody_Eridanus":0.01,
+		"FSD_tonal_Eridanus":0.01,
+		"FSD_chimes_Standard":0.01,
+		"FSD_Newchimes_Eridanus":0.01,
+		"FSD_prosody-A":0.15,				
+		
+		
+		"FSD_storm_Eridanus":0.05,
+		"FSD_delight_core_Eridanus":0.05,
+		"FSD_delight_core-A":0.05,
+		"FSD_FallThought_Eridanus":0.05,
+		
+		"FSD_baiju(s)_Eridanus":0.06,
+		"FSD_LongSong_Eridanus-A":0.04,
+		"FSD_LongSong_Eridanus-B":0.04,
+		"FSD_LongSong_Eridanus-C":0.04,
+		"FSD_stream_Eridanus":0.04,
+		"FSD_stream_Guard":0.04,
+		"FSD_stream-A":0.04,		
+		"FSD_XC_Eridanus-A":0.06,
+		"FSD_XC_Eridanus-B":0.06,
+		"FSD_baiju_Eridanus-B":0.06,
+		"FSD_baiju_Eridanus-A":0.06,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"FSD_prosody_Eridanus":0.1,
+		"FSD_tonal_Eridanus":0.1,
+		"FSD_chimes_Standard":0.1,
+		"FSD_Newchimes_Eridanus":0.1,
+		"FSD_prosody-A":0.15,				
+
+		"FSD_storm_Eridanus":0.04,
+		"FSD_delight_core_Eridanus":0.04,
+		"FSD_delight_core-A":0.04,
+		"FSD_FallThought_Eridanus":0.02,
+		
+		"FSD_auditorium_Eridanus":0.4,
+		"FSD_Buffalo_Eridanus":0.13,
+		"FSD_Lenient_Eridanus":0.13,
+	},
+	"combatFreighterMedium":{
+		"FSD_prosody_Eridanus":0.075,
+		"FSD_tonal_Eridanus":0.075,
+		"FSD_chimes_Standard":0.075,
+		"FSD_Newchimes_Eridanus":0.075,
+		"FSD_prosody-A":0.15,				
+
+		"FSD_storm_Eridanus":0.05,
+		"FSD_delight_core_Eridanus":0.05,
+		"FSD_delight_core-A":0.05,
+		"FSD_FallThought_Eridanus":0.025,
+		
+		"FSD_auditorium_Eridanus":0.1,
+		"FSD_Buffalo_Eridanus":0.15,
+		"FSD_Lenient_Eridanus":0.15,
+	},
+	"combatFreighterLarge":{
+		"FSD_prosody_Eridanus":0.02,
+		"FSD_tonal_Eridanus":0.02,
+		"FSD_chimes_Standard":0.02,
+		"FSD_Newchimes_Eridanus":0.02,
+		"FSD_prosody-A":0.15,				
+
+		"FSD_storm_Eridanus":0.05,
+		"FSD_delight_core_Eridanus":0.05,
+		"FSD_delight_core-A":0.05,
+		"FSD_FallThought_Eridanus":0.05,
+		
+		"FSD_baiju(s)_Eridanus":0.035,
+		"FSD_LongSong_Eridanus-A":0.025,
+		"FSD_LongSong_Eridanus-B":0.025,
+		"FSD_LongSong_Eridanus-C":0.025,
+		"FSD_stream_Eridanus":0.02,
+		"FSD_stream_Guard":0.02,
+		"FSD_stream-A":0.02,		
+		"FSD_XC_Eridanus-A":0.035,
+		"FSD_XC_Eridanus-B":0.035,
+		"FSD_baiju_Eridanus-A":0.035,
+		"FSD_baiju_Eridanus-B":0.035,
+
+		"FSD_auditorium_Eridanus":0.3,
+		"FSD_Buffalo_Eridanus":0.05,
+		"FSD_Lenient_Eridanus":0.05,
+	},
+	
+	"civilianRandom":{
+		"FSD_String_Standard":0.15,
+	},
+
+	# carriers
+	"carrierSmall":{
+		"FSD_prosody_Eridanus":0.1,
+		"FSD_tonal_Eridanus":0.1,
+		"FSD_chimes_Standard":0.1,
+		"FSD_Newchimes_Eridanus":0.1,
+		"FSD_prosody-A":0.15,				
+
+		"FSD_storm_Eridanus":0.04,
+		"FSD_delight_core_Eridanus":0.04,
+		"FSD_delight_core-A":0.04,
+		"FSD_FallThought_Eridanus":0.02,
+		
+		"FSD_Harmony_Eridanus":0.15,
+		"FSD_auditorium_Eridanus":0.05,
+		"FSD_Buffalo_Eridanus":0.1,
+		"FSD_Lenient_Eridanus":0.1,
+	},
+	"carrierMedium":{
+		"FSD_prosody_Eridanus":0.05,
+		"FSD_tonal_Eridanus":0.05,
+		"FSD_chimes_Standard":0.05,
+		"FSD_Newchimes_Eridanus":0.05,
+		"FSD_prosody-A":0.15,				
+
+		"FSD_storm_Eridanus":0.1,
+		"FSD_delight_core_Eridanus":0.1,
+		"FSD_FallThought_Eridanus":0.05,
+		
+		"FSD_Harmony_Eridanus":0.1,
+		"FSD_auditorium_Eridanus":0.1,
+		"FSD_Buffalo_Eridanus":0.15,
+		"FSD_Lenient_Eridanus":0.15,
+	},
+	"carrierLarge":{
+		"FSD_prosody_Eridanus":0.02,
+		"FSD_tonal_Eridanus":0.02,
+		"FSD_chimes_Standard":0.02,
+		"FSD_Newchimes_Eridanus":0.02,
+		"FSD_prosody-A":0.15,				
+
+		"FSD_storm_Eridanus":0.2,
+		"FSD_delight_core_Eridanus":0.2,
+		"FSD_delight_core-A":0.2,
+		"FSD_FallThought_Eridanus":0.1,
+
+		"FSD_Harmony_Eridanus":0.05,
+		"FSD_auditorium_Eridanus":0.18,
+		"FSD_Buffalo_Eridanus":0.05,
+		"FSD_Lenient_Eridanus":0.05,    
+		"FSD_withered_core_Eridanus":0.14,
+		"FSD_withered_Assault":0.06,
+		"FSD_withered_Standard":0.06,
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"FSD_chimes_Standard":0.15,
+		"FSD_Newchimes_Eridanus":0.2,
+		"FSD_FallThought_Eridanus":0.08,
+	},
+	"phaseMedium":{
+		"FSD_baiju(s)_Eridanus":0.08,
+		"FSD_baiju_Eridanus-A":0.12,
+		"FSD_baiju_Eridanus-B":0.12,
+	},
+	"phaseLarge":{
+		"FSD_Eventualfeather_Eridanus":0.18,
+		"FSD_baiju_Eridanus-A":0.06,
+		"FSD_baiju_Eridanus-B":0.06,
+	},
+	"phaseCapital":{
+		"FSD_Eventualfeather_Eridanus":0.12,
+	},
+
+	# freighters and such
+	"freighterSmall":{
+
+	},
+	"freighterMedium":{
+
+	},
+	"freighterLarge":{
+
+	},
+	
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+        
+	},
+	"tankerLarge":{
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+         
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+         
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+          
+	},
+	"crig":{
+	},
+	"utility":{
+         
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+	},
+}

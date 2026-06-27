@@ -1,0 +1,43 @@
+{
+	"id":"FSD_Longinus_paylord_shot",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/FSD_Longinus_ring.png",
+	"size":[18, 134],	
+	"center":[9,67],
+	"collisionRadius":80,
+	"flameoutTime":0.1,
+	"noEngineGlowTime":0,
+	"fadeTime":0.05,
+	"collisionClass":"NONE",
+	"explosionColor":[215,15,116,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+#	"engineSpec":{"turnAcc":300,
+#				  "turnRate":100,
+#				  "acc":3000,
+#				  "dec":3000},
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":0,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-40, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[193,44,6,255],
+						"contrailDuration":0.25,
+						"contrailWidthMult":0.7,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":2.5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.7f,
+						"contrailAngularVelocityMult":1f,
+						"contrailColor":[201,120,247,205],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":15.0,
+				    "length":35.0,
+				    "angle":180.0},
+				    ]
+}

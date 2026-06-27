@@ -1,0 +1,37 @@
+{
+  "hullName": "Delight Left Wing",
+  "hullId": "FSD_delight_L",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/FSD_delight/FSD_delight_L.png",
+  "style": "FarSight_Tech",
+  "height": 298,
+  "width": 188,
+  "center": [
+    34,
+    121
+  ],
+  "collisionRadius": 74.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 72.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_DLmodule_controller",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    22,
+    7.5,
+    22,
+    15.5,
+    -74,
+    4,
+    -20,
+    -22.5
+  ]
+}

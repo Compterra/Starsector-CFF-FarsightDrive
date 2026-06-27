@@ -1,0 +1,63 @@
+{
+  "hullName": "Longbow",
+  "hullId": "FSD_longbow",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_longbow_intg.png",
+  "style": "HIGH_TECH",
+  "height": 35,
+  "width": 34,
+  "center": [17, 14],
+  "collisionRadius": 30,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_RLDetrital",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [14, 12]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [9, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 10],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-13, -10],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -11, 9,
+    13, 14,
+    14, -15,
+    -10, -8,
+    -1, 1
+  ]
+}

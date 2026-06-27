@@ -1,0 +1,130 @@
+{
+  "hullName": "Chimes",
+  "hullId": "FSD_Newchimes",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/FSD_chimes/FSD_Newchimes.png",
+  "style": "FarSight_Tech",
+  "height": 93,
+  "width": 150,
+  "center": [
+    75,
+    62
+  ],
+  "collisionRadius": 92,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 86,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [
+        19.5,
+        18
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [
+        19.5,
+        -18
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [
+        0,
+        0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -27,
+        12.5
+      ],
+      "length": 50,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -27,
+        -12.5
+      ],
+      "length": 50,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -22,
+        19.5
+      ],
+      "length": 31.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -22,
+        -19.5
+      ],
+      "length": 31.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    }
+  ],
+  "bounds": [
+    -62,
+    1.5,
+    -31,
+    7,
+    10,
+    67.5,
+    26.5,
+    28.5,
+    26.5,
+    -28.5,
+    10,
+    -67.5,
+    -31,
+    -7,
+    -62,
+    -1.5
+  ]
+}

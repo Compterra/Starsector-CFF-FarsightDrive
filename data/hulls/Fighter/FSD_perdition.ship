@@ -1,0 +1,52 @@
+{
+  "hullName": "Perdition",
+  "hullId": "FSD_perdition",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_perdition_bomber.png",
+  "style": "LOW_TECH",
+  "height": 40,
+  "width": 40,
+  "center": [19, 19],
+  "collisionRadius": 24,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_RLDetrital"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [5, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 5],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-13, -4],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    12, 11,
+    12, -12,
+    -11, -10,
+    -11, 10
+  ]
+}

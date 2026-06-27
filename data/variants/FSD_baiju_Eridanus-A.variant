@@ -1,0 +1,43 @@
+{
+    "displayName": "Eridanus-A",
+    "fluxCapacitors": 29,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "FSD_baiju",
+    "hullMods": [
+        "autorepair",
+        "magazines",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_baiju_Eridanus-A",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_Nightpulse",
+                "WS0004": "FSD_Nightpulse",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FSD_Decay",
+                "WS0002": "FSD_Decay",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "FSD_Chaingun",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

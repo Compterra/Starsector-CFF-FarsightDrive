@@ -1,0 +1,25 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "FSD_Lenient",
+    "hullMods": [
+        "additional_berthing",
+        "autorepair",
+        "converted_hangar",
+        "defensive_targeting_array",
+        "fluxbreakers",
+        "hiressensors",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_Lenient_Eridanus",
+    "weaponGroups": [],
+    "wings": [
+        "FSD_Drone1_wing",
+    ],
+    "modules": [],
+}

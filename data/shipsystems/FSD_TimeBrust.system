@@ -1,0 +1,13 @@
+{
+	"id":"FSD_TimeBrust",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.scripts.shipsystems.FSD_TimeBrust",
+
+	"canUseWhileRightClickSystemOn":true,
+
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

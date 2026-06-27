@@ -1,0 +1,32 @@
+{
+	"id":"FSD_LSShaftcannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"everyFrameEffect":"data.everyframe.FSD_LongSong",
+	"turretSprite":"graphics/weapons/FSD_LSweapon/FSD_LSShaftcannon.png",
+	#"turretGlowSprite":"graphics/weapons/FSD_hmg_turret_glow.png",
+	"turretGunSprite":"graphics/weapons/FSD_LSweapon/FSD_LSShaftcannon_recoil.png",
+	"hardpointSprite":"graphics/weapons/FSD_LSweapon/FSD_LSShaftcannon.png",
+	#"hardpointGlowSprite":"graphics/weapons/FSD_hmg_hardpoint_glow.png",
+	"hardpointGunSprite":"graphics/weapons/FSD_LSweapon/FSD_LSShaftcannon_recoil.png",
+	#"glowColor":[100,200,255,255],
+	"visualRecoil":5,
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[72, 0],
+	"hardpointAngleOffsets":[0],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":15.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.15,
+					   "particleCount":20,
+					   "particleColor":[255,66,155,125]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"FSD_LongSongCannon_shot",  # projectile that will be fired
+	"fireSoundTwo":"autocannon_fire_mark9",
+}

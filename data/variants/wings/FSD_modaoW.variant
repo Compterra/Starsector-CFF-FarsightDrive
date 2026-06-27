@@ -1,0 +1,23 @@
+{
+    "variantId": "FSD_modaoW",
+    "hullId": "FSD_modao_wing",
+    "displayName": "High-speed Fighter",
+    "goalVariant": false,
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "quality": 1,
+    "permaMods": [],
+    "hullMods": [],
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_LMG",
+                "WS0002": "FSD_LMG"
+            }
+        }
+    ],
+    "modules": [],
+    "wings": []
+}

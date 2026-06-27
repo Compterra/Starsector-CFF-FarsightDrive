@@ -1,0 +1,3 @@
+id,name,faction,desc,script,icon,order
+FSD_PIMarket,Old Remembrance Assembly,Farsight_Drive,"A restricted armory exchange maintained by Old Remembrance for trusted captains, covering nearly all recoverable pre-assimilation military equipment.",data.campaign.submarkets.FSD_PIMarket,,0
+FSD_liaison_market,FSD Liaison Storefront,Farsight_Drive,"A screened relief-and-procurement desk that releases limited Farsight Drive hulls, weapons, fighter LPCs, and support hardware to trusted colonies.",data.campaign.submarkets.FSDLiaisonMarket,,1

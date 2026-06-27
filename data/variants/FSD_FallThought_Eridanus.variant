@@ -1,0 +1,55 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 20,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "FSD_FallThought",
+    "hullMods": [
+        "frontemitter",
+        "hardenedshieldemitter",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_FallThought_Eridanus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "FSD_Avision",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "FSD_WindCannon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_Nightpulse",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "FSD_Chaingun",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_GuiderPD",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

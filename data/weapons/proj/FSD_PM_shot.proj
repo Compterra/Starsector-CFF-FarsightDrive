@@ -1,0 +1,20 @@
+{
+	"id":"FSD_PM_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"onFireEffect":"data.combat.FSD_SpawnMineOnFire",
+	#"onHitEffect":"data.combat.FSD_Mine2OnHit",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"NONE",
+	"length":1.0,
+	"hitGlowRadius":0,
+	"width":1.0,
+	"glowColor":[234,11,74,0],
+	"glowRadius":0,
+	"fadeTime":0.3,
+	"fringeColor":[253,8,105,0],
+	"coreColor":[245,245,245,0],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/fx/empty.png"
+}

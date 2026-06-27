@@ -1,0 +1,23 @@
+{
+    "hullId": "FSD_lux",
+    "variantId": "FSD_lux_Fighter",
+    "displayName": "Heavy Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "quality": 1,
+    "hullMods":[],
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"FSD_irpulse_fighter",
+		 			#"WS 002":"irpulse",
+		 			#"WS 003":"irpulse",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			#"WS 003":"swarmer_fighter",
+		 		   },
+		},
+	],
+}

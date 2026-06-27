@@ -1,0 +1,303 @@
+{
+  "hullName": "Autumn Thought",
+  "hullId": "FSD_FallThought",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/FSD_FallThought.png",
+  "style": "FarSight_Tech",
+  "height": 214,
+  "width": 170,
+  "center": [
+    85,
+    107
+  ],
+  "collisionRadius": 124,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 114,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight",
+    "FSD_DeepphasedInterface"
+  ],
+  "builtInWeapons": {
+    "WS0004": "FSD_WindCannon",
+    "WS0005": "FSD_Flow"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 141,
+      "angle": 57.5,
+      "locations": [
+        -8,
+        25
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 141,
+      "angle": -57.5,
+      "locations": [
+        -8,
+        -25
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 221,
+      "angle": 180,
+      "locations": [
+        -39,
+        0
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 133,
+      "angle": 0,
+      "locations": [
+        -35,
+        0
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [
+        -56,
+        0
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [
+        29.5,
+        0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -72,
+        16.5
+      ],
+      "length": 69,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -72,
+        -16.5
+      ],
+      "length": 69,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -65,
+        25
+      ],
+      "length": 46.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -65,
+        -25
+      ],
+      "length": 46.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -60,
+        31.5
+      ],
+      "length": 34.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -60,
+        -31.5
+      ],
+      "length": 34.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -91.5,
+        -1
+      ],
+      "length": 6.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEIII"
+    },
+    {
+      "location": [
+        -91.5,
+        1
+      ],
+      "length": 6.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEIII"
+    },
+    {
+      "location": [
+        -90.5,
+        0.5
+      ],
+      "length": 6.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEIII"
+    },
+    {
+      "location": [
+        -90.5,
+        -0.5
+      ],
+      "length": 6.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEIII"
+    },
+    {
+      "location": [
+        -95.5,
+        0.5
+      ],
+      "length": 6.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEIII"
+    },
+    {
+      "location": [
+        -95.5,
+        -0.5
+      ],
+      "length": 6.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEIII"
+    },
+    {
+      "location": [
+        -90.5,
+        2
+      ],
+      "length": 22,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEIII"
+    },
+    {
+      "location": [
+        -90.5,
+        -2
+      ],
+      "length": 22,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEIII"
+    }
+  ],
+  "bounds": [
+    -95,
+    3.5,
+    -56.5,
+    46.5,
+    -39.5,
+    76.5,
+    -7.5,
+    48,
+    3.5,
+    42.5,
+    13.5,
+    42.5,
+    108.5,
+    10.5,
+    108.5,
+    -10.5,
+    13.5,
+    -42.5,
+    3.5,
+    -42.5,
+    -7.5,
+    -48,
+    -39.5,
+    -76.5,
+    -56.5,
+    -46.5,
+    -95,
+    -3.5
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "hullName": "Thunder",
+  "hullId": "FSD_thunder",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_thunder.png",
+  "style": "MIDLINE",
+  "height": 43,
+  "width": 26,
+  "center": [13, 13],
+  "collisionRadius": 35,
+  "shieldCenter": [8, 0],
+  "shieldRadius": 28,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_RLDetrital"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [20, 6]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [20, -5]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 120,
+      "angle": 0,
+      "locations": [15, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 7],
+      "length": 64,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-12, -6],
+      "length": 64,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    28, -3,
+    -1, 10,
+    -9, -7
+  ]
+}

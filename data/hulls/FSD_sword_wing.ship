@@ -1,0 +1,158 @@
+{
+  "hullName": "Crossblade",
+  "hullId": "FSD_sword_wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/wings/FSD_sword.png",
+  "style": "FarSight_Tech",
+  "height": 53,
+  "width": 34,
+  "center": [
+    17,
+    27
+  ],
+  "collisionRadius": 29.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_LightLauncher",
+    "FSD_RLMini"
+  ],
+  "builtInWeapons": {
+    "WS0004": "FSD_LightLauncher",
+    "WS0005": "FSD_LightLauncher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        8,
+        -4
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        8,
+        4
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [
+        -11.5,
+        0
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 155,
+      "locations": [
+        -7,
+        9
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -155,
+      "locations": [
+        -7,
+        -9
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -10.5,
+        7.5
+      ],
+      "length": 19.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -10.5,
+        -7.5
+      ],
+      "length": 19.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -9.5,
+        10.5
+      ],
+      "length": 14.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -9.5,
+        -10.5
+      ],
+      "length": 14.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    }
+  ],
+  "bounds": [
+    -19,
+    3,
+    -9,
+    13,
+    5.5,
+    16,
+    26,
+    5.5,
+    26,
+    -5.5,
+    5.5,
+    -16,
+    -9,
+    -13,
+    -19,
+    -3
+  ]
+}

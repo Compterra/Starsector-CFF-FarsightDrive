@@ -1,0 +1,29 @@
+{
+    "variantId": "FSD_CelestrailArrowW",
+    "hullId": "FSD_CelestrailArrow_wing",
+    "displayName": "Suppression Escort",
+    "goalVariant": false,
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "quality": 1,
+    "permaMods": [],
+    "hullMods": [],
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_GuiderPD"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "FSD_Tusk1_wing"
+            }
+        }
+    ],
+    "modules": [],
+    "wings": []
+}

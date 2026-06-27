@@ -1,0 +1,22 @@
+{
+    "hullId": "FSD_spark",
+    "variantId": "FSD_spark_Interceptor",
+    "displayName": "Drone Interceptor",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "quality": 1,
+    "hullMods":[],
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			#"WS 001":"FSD_pdburst_fighter",
+		 			"WS 002":"FSD_pdburst",
+		 		   },
+		},
+		#{"mode":"LINKED",
+		# "weapons":{
+		# 			#"WS 002":"fragbomb",
+		# 		   },
+		#},
+	],
+}

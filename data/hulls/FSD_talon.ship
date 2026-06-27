@@ -1,0 +1,70 @@
+{
+  "hullName": "Talon",
+  "hullId": "FSD_talon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_talon.png",
+  "style": "LOW_TECH",
+  "height": 24,
+  "width": 24,
+  "center": [13, 10],
+  "collisionRadius": 16,
+  "shieldCenter": [1, 1],
+  "shieldRadius": 16,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_RLDetrital"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0, 4]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-8, 2]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, 6.5],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8, -4.5],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    9, 2,
+    -5, 11,
+    -5, -8,
+    9, -4
+  ]
+}

@@ -1,0 +1,57 @@
+{
+    "displayName": "Eridanus-B",
+    "fluxCapacitors": 30,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "FSD_LongSong",
+    "hullMods": [
+        "FSD_LSShaftcannon_beam_hullmod",
+        "advancedoptics",
+        "converted_hangar",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_LongSong_Eridanus-B",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "FSD_LSW": "FSD_LSShaftcannon_beam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_Avision",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_needler",
+                "WS0002": "FSD_needler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "FSD_GuiderPD",
+                "WS0008": "FSD_GuiderPD",
+                "WS0005": "FSD_GuiderPD",
+                "WS0004": "FSD_GuiderPD",
+                "WS0007": "FSD_GuiderPD",
+                "WS0006": "FSD_GuiderPD",
+            }
+        },
+    ],
+    "wings": [
+        "FSD_sword_wing",
+    ],
+    "modules": [],
+}

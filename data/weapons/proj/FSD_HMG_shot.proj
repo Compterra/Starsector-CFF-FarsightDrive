@@ -1,0 +1,20 @@
+{
+	"id":"FSD_HMG_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"onFireEffect":"data.combat.FSD_HMG",
+	"onHitEffect":"data.combat.FSD_HMGOnHit",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":35.0,
+	"hitGlowRadius":5,
+	"width":3.5,
+	"glowColor":[234,11,74,150],
+	"glowRadius":4.5,
+	"fadeTime":0.3,
+	"fringeColor":[253,8,105,125],
+	"coreColor":[245,245,245,100],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/FSD_BFshell.png"
+}

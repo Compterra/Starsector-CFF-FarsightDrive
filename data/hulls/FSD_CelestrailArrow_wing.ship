@@ -1,0 +1,97 @@
+{
+  "hullName": "Celestial Arrow",
+  "hullId": "FSD_CelestrailArrow_wing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/wings/FSD_CelestrialArrow.png",
+  "style": "FarSight_Tech",
+  "height": 51,
+  "width": 46,
+  "center": [
+    23,
+    27.5
+  ],
+  "collisionRadius": 29.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_RLMini"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 82,
+      "angle": 0,
+      "locations": [
+        11,
+        9.5
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [
+        10.5,
+        -10
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -2,
+        -17
+      ],
+      "length": 19,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -2,
+        17
+      ],
+      "length": 19,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    }
+  ],
+  "bounds": [
+    -25.5,
+    3,
+    -10.5,
+    7.5,
+    2.5,
+    22,
+    10,
+    22,
+    19,
+    3,
+    19,
+    -3,
+    10,
+    -22,
+    2.5,
+    -22,
+    -10.5,
+    -7.5,
+    -25.5,
+    -3
+  ]
+}

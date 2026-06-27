@@ -1,0 +1,48 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 45,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "FSD_withered_core",
+    "hullMods": [
+        "eccm",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_withered_core_Eridanus",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FSD_CorruptSea",
+                "WS0002": "FSD_CorruptSea",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "FSD_Weepingblood",
+                "WS0008": "FSD_Weepingblood",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_MEGAGuider",
+                "WS0005": "FSD_GuiderPD",
+                "WS0004": "FSD_GuiderPD",
+                "WS0007": "FSD_GuiderPD",
+                "WS0006": "FSD_GuiderPD",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [
+        {"MODULE_0": "FSD_witheredL_Eridanus"},
+        {"MODULE_1": "FSD_witheredR_Eridanus"},
+    ],
+}

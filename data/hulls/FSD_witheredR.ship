@@ -1,0 +1,184 @@
+{
+  "hullName": "Equilibrium Right Module",
+  "hullId": "FSD_witheredR",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/FSD_withered/FSD_witheredR.png",
+  "style": "FarSight_Tech",
+  "height": 179,
+  "width": 182,
+  "center": [
+    57,
+    87
+  ],
+  "collisionRadius": 154.5,
+  "shieldCenter": [
+    -65,
+    115
+  ],
+  "shieldRadius": 320.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight"
+  ],
+  "builtInWeapons": {
+    "WS0002": "FSD_PDLightLauncher",
+    "WS0006": "FSD_PDLightLauncher",
+    "WS0007": "FSD_PDLightLauncher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": -48.5,
+      "locations": [
+        72,
+        -27
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -45,
+      "locations": [
+        15,
+        20
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -40,
+      "locations": [
+        19,
+        -8
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -40,
+      "locations": [
+        43,
+        -4
+      ]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        7.5,
+        -52.5,
+        16,
+        -57,
+        13.5,
+        -66,
+        3.5,
+        -59.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -29.5,
+        -56,
+        -37.5,
+        -58,
+        -39.5,
+        -66,
+        -30.5,
+        -65
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -126.5,
+      "locations": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -134,
+      "locations": [
+        -3,
+        13.5
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -112,
+      "locations": [
+        5,
+        -18
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    31.5,
+    58.5,
+    -30,
+    17,
+    -34,
+    -15.5,
+    -51.5,
+    -32.5,
+    -89.5,
+    -120,
+    -43,
+    -86.5,
+    -26,
+    -107.5,
+    0.5,
+    -80.5,
+    32.5,
+    -128.5,
+    43.5,
+    -113.5,
+    44,
+    -48.5,
+    61.5,
+    -69.5,
+    65,
+    -40,
+    95,
+    -21,
+    63.5,
+    23.5
+  ]
+}

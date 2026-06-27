@@ -1,0 +1,23 @@
+{
+    "displayName": "Eridanus",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "FSD_Harmony",
+    "hullMods": [
+        "adaptive_coils",
+        "augmentedengines",
+        "autorepair",
+        "auxiliarythrusters",
+        "ecm",
+        "hiressensors",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_Harmony_Eridanus",
+    "weaponGroups": [],
+    "wings": [],
+    "modules": [],
+}

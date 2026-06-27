@@ -1,0 +1,37 @@
+{
+  "hullName": "Delight Right Wing",
+  "hullId": "FSD_delight_R",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/FSD_delight/FSD_delight_R.png",
+  "style": "FarSight_Tech",
+  "height": 298,
+  "width": 188,
+  "center": [
+    155,
+    124
+  ],
+  "collisionRadius": 77.5,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_DLmodule_controller",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    17,
+    -17,
+    22,
+    -7.5,
+    -25,
+    22.5,
+    -76,
+    -0.5
+  ]
+}

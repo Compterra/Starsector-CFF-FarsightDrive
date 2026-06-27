@@ -1,0 +1,39 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "FSD_chimes",
+    "hullMods": [
+        "armoredweapons",
+        "autorepair",
+        "eccm",
+        "fluxbreakers",
+        "magazines",
+        "missleracks",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_chimes_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ionpulser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "reaper",
+                "WS0002": "reaper",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

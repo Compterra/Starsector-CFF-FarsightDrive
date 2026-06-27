@@ -1,0 +1,186 @@
+{
+  "hullName": "Immaculate",
+  "hullId": "FSD_baiju",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/FSD_baiju/FSD_baiju.png",
+  "style": "FarSight_Tech",
+  "height": 270,
+  "width": 270,
+  "center": [
+    135,
+    126
+  ],
+  "collisionRadius": 162,
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 153.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_BiomassRefiningMachine",
+    "FSD_ReflectLight"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [
+        24.5,
+        56
+      ]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [
+        24.5,
+        -56
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [
+        29.5,
+        33
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 0,
+      "locations": [
+        29.5,
+        -33
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [
+        -80.5,
+        33
+      ],
+      "length": 115.5,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -80.5,
+        -33
+      ],
+      "length": 115.5,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINEII"
+    },
+    {
+      "location": [
+        -66,
+        27.5
+      ],
+      "length": 116,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    },
+    {
+      "location": [
+        -66,
+        -27.5
+      ],
+      "length": 116,
+      "width": 26,
+      "angle": -180,
+      "contrailSize": 26,
+      "style": "CUSTOM",
+      "styleId": "Farsight_Drive_ENGINE"
+    }
+  ],
+  "bounds": [
+    -51.5,
+    4.5,
+    -50,
+    16,
+    -71.5,
+    23,
+    -85,
+    34,
+    -124.5,
+    38.5,
+    -33.5,
+    82.5,
+    -2,
+    112.5,
+    73.5,
+    132.5,
+    72.5,
+    101,
+    23,
+    64,
+    26.5,
+    27.5,
+    143.5,
+    5.5,
+    143.5,
+    -5.5,
+    26.5,
+    -27.5,
+    23,
+    -64,
+    72.5,
+    -101,
+    73.5,
+    -132.5,
+    -2,
+    -112.5,
+    -33.5,
+    -82.5,
+    -124.5,
+    -38.5,
+    -85,
+    -34,
+    -71.5,
+    -23,
+    -50,
+    -16,
+    -51.5,
+    -4.5
+  ]
+}

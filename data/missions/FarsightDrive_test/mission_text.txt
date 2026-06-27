@@ -1,0 +1,17 @@
+Location: 3500m beneath Mark, coordinates classified
+Date: Exact date unclear
+// Heart rate: 174 bpm
+// Blood pressure: +229/+155 mmHg
+// Type-1 Derivative, Category G, A12 concentration: 819 pg/ml
+// Neural load: attention required
+// Biometric verification in progress------
+// Passed.
+
+// Welcome back, Adult-IV "Lana-Fell." This is Neural Test Unit No. 5, manufactured by FSD in C+174 to assess cognition, aggression, and command potential through controlled contact with juvenile and adult Reflecting-Light Crystals. You are being addressed through the same dormant-crew interface that is currently sustaining you.
+// Following the Unclean Incident, you have remained dormant for 22 cycles. Current-affairs data will be transmitted to your neural center after this rehabilitation test.
+// This exercise will confirm whether your combat skill and command fundamentals still meet archived standards. The result determines your next procedure: formal revival or continued dormancy.
+// Select the warship required for the test. May the Farseer find truth.
+// Note: this unit's No. 5 auxiliary processor, installed one cycle ago, was grown from nervous tissue recovered from a Luddic Path terrorist cell. The virtual opponents use modern samples unfamiliar to your archived combat memory. If you pass, you will receive a briefing on the Path and the special legal status FSD assigns to them.
+
+Tactical Briefing
+- Test scenario. You may freely select ships and fit weapons.

@@ -1,0 +1,98 @@
+{
+  "hullName": "Trident",
+  "hullId": "FSD_trident",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/Fighter_skin/FSD_trident.png",
+  "style": "HIGH_TECH",
+  "height": 34,
+  "width": 38,
+  "center": [19, 15],
+  "collisionRadius": 36,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "FSD_RLDetrital",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-1, 10]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-3, 0]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-1, -10]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7, 8]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 11],
+      "length": 16,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, 0],
+      "length": 24,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -11],
+      "length": 16,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    10, 12,
+    10, -12,
+    -8, -15,
+    -13, 0,
+    -7, 15
+  ]
+}

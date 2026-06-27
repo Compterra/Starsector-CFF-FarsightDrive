@@ -1,0 +1,47 @@
+{
+    "variantId": "FSD_delight_core_Eridanus",
+    "hullId": "FSD_delight_core",
+    "displayName": "Eridanus",
+    "goalVariant": false,
+    "fluxCapacitors": 12,
+    "fluxVents": 11,
+    "quality": 1,
+    "permaMods": [],
+    "hullMods": [
+        "FSD_OverrunPosition"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_Nightpulse",
+                "WS0002": "FSD_Nightpulse",
+                "WS0003": "FSD_GuiderPD",
+                "WS0004": "FSD_GuiderPD",
+                "WS0005": "FSD_HMG",
+                "WS0006": "FSD_HMG"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ],
+    "modules": {
+        "MODULE_0": "FSD_delight_L_Eridanus",
+        "MODULE_1": "FSD_delight_R_Eridanus"
+    },
+    "wings": []
+}

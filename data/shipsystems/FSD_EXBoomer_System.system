@@ -1,0 +1,20 @@
+{
+	"id":"FSD_EXBoomer_System",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.shipsystems.ai.FSD_EXBsystemAI",
+	
+	"statsScript":"data.scripts.shipsystems.FSD_EXBoomer_System",
+	
+	"useSound":"system_targeting_feed",
+	#"loopSound":"system_targeting_feed_loop",
+	"deactivateSound":"gun_out_of_ammo",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

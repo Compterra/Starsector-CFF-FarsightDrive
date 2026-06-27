@@ -1,0 +1,21 @@
+{
+	"id":"FSD_Nightpulse_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"onHitEffect":"data.combat.FSD_NightPulse",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":40.0,
+	"width":12.5,
+	"hitGlowRadius":25,
+	"fadeTime":0.4,
+	"fringeColor":[222,5,230,255],
+	"coreColor":[252,207,246,225],
+	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

@@ -1,0 +1,15 @@
+{
+	"id":"FSD_MissileRack",
+	"type":"AMMO_RELOAD",
+	"aiType":"AMMO_RELOAD",
+	#"aiType":"CUSTOM",
+	"statsScript":"data.scripts.shipsystems.FSD_MissileRack",
+	
+	"weaponTypes":[ENERGY],
+	"minFractionToReload":0.5,
+	
+	"useSound":"system_fast_missile_racks",
+	"outOfUsesSound":"gun_out_of_ammo",
+		"aiHints":{
+    	}
+}

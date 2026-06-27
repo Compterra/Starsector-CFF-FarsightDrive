@@ -1,0 +1,41 @@
+{
+    "variantId": "FSD_withered_core",
+    "hullId": "FSD_withered_core",
+    "displayName": "Core",
+    "goalVariant": false,
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "quality": 1,
+    "permaMods": [],
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "FSD_CorruptSea",
+                "WS0002": "FSD_CorruptSea",
+                "WS0003": "FSD_Nightpulse",
+                "WS0004": "FSD_GuiderPD",
+                "WS0005": "FSD_GuiderPD",
+                "WS0006": "FSD_GuiderPD",
+                "WS0007": "FSD_GuiderPD",
+                "WS0008": "FSD_needler",
+                "WS0009": "FSD_needler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ],
+    "modules": {
+        "MODULE_0": "FSD_witheredL",
+        "MODULE_1": "FSD_witheredR"
+    },
+    "wings": []
+}

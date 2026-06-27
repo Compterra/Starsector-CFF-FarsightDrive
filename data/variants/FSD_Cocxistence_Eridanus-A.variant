@@ -1,0 +1,65 @@
+{
+    "displayName": "Eridanus-A",
+    "fluxCapacitors": 50,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "FSD_Cocxistence",
+    "hullMods": [
+        "FSD_OverrunPosition",
+        "advancedoptics",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "FSD_Cocxistence_Eridanus-A",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "FSD_DevourerCannonN",
+                "WS0021": "FSD_DevourerCannonN",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "FSD_TuskLauncher",
+                "WS0013": "FSD_TuskLauncher",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "FSD_Proliferation",
+                "WS0002": "FSD_Proliferation",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "FSD_Avision",
+                "WS0004": "FSD_Avision",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "FSD_Lightneedler",
+                "WS0011": "FSD_Lightneedler",
+                "WS0010": "FSD_Lightneedler",
+                "WS0009": "FSD_Lightneedler",
+                "WS0008": "FSD_Lightneedler",
+                "WS0005": "FSD_Lightneedler",
+                "WS0007": "FSD_Lightneedler",
+                "WS0006": "FSD_Lightneedler",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,36 @@
+{
+    "displayName": "Overdrive",
+    "fluxCapacitors": 10,
+    "fluxVents": 3,
+    "hullId": "FSD_prosody",
+    "hullMods": [
+        "safetyoverrides"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "FSD_prosody-A",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "phasebeam",
+                "WS0002": "phasebeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "atropos"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "sabot"
+            }
+        }
+    ]
+}
