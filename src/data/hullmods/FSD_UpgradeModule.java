@@ -51,8 +51,11 @@ public class FSD_UpgradeModule extends BaseHullMod {
         stats.getSuppliesToRecover().modifyMult(id, 1.5f);
         stats.getSystemUsesBonus().modifyFlat(id, 1f);
         if (isSMod(stats)) {
+            stats.getDynamic().getMod(Stats.DEPLOYMENT_POINTS_MOD).modifyMult(id + "_smod", 0.9f);
             stats.getSuppliesPerMonth().modifyMult(id + "_smod", 0.9f);
             stats.getSuppliesToRecover().modifyMult(id + "_smod", 0.9f);
+            stats.getSystemRegenBonus().modifyMult(id + "_smod", 1.1f);
+            stats.getSystemCooldownBonus().modifyMult(id + "_smod", 1.1f);
         }
     }
 
@@ -137,8 +140,8 @@ public class FSD_UpgradeModule extends BaseHullMod {
                 "Maximum karma capacity rises from %s to %s.\nKarma gained from kills increases from %s to %s.\nPhase entropy field radius increases by %s.",
                 pads, Misc.getTextColor(), y, "100%", "200%", "10%/20%/30%/40%", "30%/40%/50%/60%", "50%");
         tooltip.addSectionHeading("Drawbacks", Alignment.MID, pad);
-        tooltip.addPara("Deployment cost and maintenance cost increase by %s, and this module cannot be installed on %s.\n %s", pads, r, "+50%", "frigates", "Can only be installed on Farsight Drive ships!");
-        tooltip.addPara("S-mod: Oracle integration seals the command lattice, reducing the deployment and maintenance penalties to %s and improving ship-system charge regeneration by %s.", pads, y, "+35%", "10%");
+        tooltip.addPara("Deployment cost and maintenance cost increase by %s, and this module cannot be installed on %s.\n%s", pads, r, "+50%", "frigates", "Can only be installed on Farsight Drive ships!");
+        tooltip.addPara("S-mod effect: Oracle integration seals the command lattice, reducing deployment, maintenance, and recovery penalties to %s and improving ship-system recharge speed by %s.", pad, y, "+35%", "10%");
     }
 
     /**

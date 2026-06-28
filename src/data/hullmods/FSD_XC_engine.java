@@ -65,8 +65,8 @@ public class FSD_XC_engine extends BaseHullMod {
     Color r = Misc.getNegativeHighlightColor();
     tooltip.addPara(
         "Based on current speed, every %s speed increases weapon rate of fire by %s.\nWhile the ship system is active, every %s speed increases weapon rate of fire by %s.\n",
-        pads, Misc.getTextColor(), y, "15", "1%", "10", "2%");
+        pads, Misc.getTextColor(), y, "15", "1%", "15", "2%");
     tooltip.addPara("Increases ground raid strength by %s; stacks with other sources.", pads, Misc.getTextColor(), y, "350");
-    tooltip.addPara("S-mod: tuned phasewave governors add %s zero-flux speed and increase speed-fed weapon cycling by %s.", pads, Misc.getTextColor(), y, "+10", "25%");
+    tooltip.addPara("S-mod effect: tuned phasewave governors add %s zero-flux speed and improve speed-fed weapon cycling by %s.", pad, Misc.getTextColor(), y, "+10", "25%");
   }
 }

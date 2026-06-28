@@ -229,7 +229,7 @@ public class FSD_IonBurst extends BaseHullMod {
     tooltip.addTable("", 0, pad);
     tooltip.addSectionHeading("Drawbacks", Alignment.MID, pad);
     tooltip.addPara("Limits weapon range to %s based on ship size.\nKarma drains by %s per second, forced venting is disabled, and damage taken increases by %s.", pad, bad, "400/500/600/700","1.5%","15%");
-    tooltip.addPara("S-mod: Bloodline channels bite harder: upper-tier RoF, dissipation, and damage bonuses improve, but karma drain rises to %s per second and incoming damage rises to %s.", pad, bad, "2%", "20%");
+    tooltip.addPara("S-mod effect: Bloodline channels bite harder, improving upper-tier rate-of-fire, dissipation, and damage bonuses. Karma drain rises to %s per second and incoming damage rises to %s.", pad, bad, "2%", "20%");
   }
   @Override
   public boolean isSModEffectAPenalty() {

@@ -1,3 +1,9 @@
+## 4.2.9
+
+- Polished FSD hullmod S-mod tooltip formatting for clearer in-game display.
+- Corrected Oracle/Upgrade Module S-mod behavior so deployment, maintenance, recovery, and ship-system recharge bonuses match the tooltip.
+- Cleaned FSD industry data formatting and kept Version Checker/forum metadata current.
+
 ## 4.2.8
 
 - Prepared local CFF release for GitHub upload.

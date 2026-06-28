@@ -79,7 +79,7 @@ public class FSD_DimensionAnchors extends BaseHullMod {//Abyssal Dimensional Anc
         pads, Misc.getTextColor(), y, "25%", "10s", "5%");
     tooltip.addPara("When installed on a phase ship, phasing can trigger one additional conversion at %s efficiency.\n", pads, Misc.getTextColor(), r, "20%");
     tooltip.addPara("Plating is capped at %s of flux capacity.", pads, Misc.getTextColor(), y, "75%");
-    tooltip.addPara("S-mod: sealed abyss geometry increases the plating cap to %s and conversion cadence to %s, but each conversion consumes %s karma.", pads, Misc.getTextColor(), y, "85%", "8s", "7%");
+    tooltip.addPara("S-mod effect: sealed abyss geometry increases the plating cap to %s and shortens the conversion interval to %s. Each conversion consumes %s karma.", pad, Misc.getTextColor(), y, "85%", "8 seconds", "7%");
     tooltip.addSectionHeading("Plating Attributes", Alignment.MID, pad);
     float col1 = 180f;
     float col2 = 180f;
@@ -93,10 +93,10 @@ public class FSD_DimensionAnchors extends BaseHullMod {//Abyssal Dimensional Anc
         new Object[] {
           "Damage Type", col1, "Resistance", col2,
         });
-    tooltip.addRow(Alignment.MID, y, "Kinetic", Alignment.MID, g, "×0.9");
-    tooltip.addRow(Alignment.MID, y, "High Explosive", Alignment.MID, g, "×0.7");
-    tooltip.addRow(Alignment.MID, y, "Energy", Alignment.MID, g, "×0.8");
-    tooltip.addRow(Alignment.MID, y, "Fragmentation", Alignment.MID, r, "×1");
+    tooltip.addRow(Alignment.MID, y, "Kinetic", Alignment.MID, g, "x0.9");
+    tooltip.addRow(Alignment.MID, y, "High Explosive", Alignment.MID, g, "x0.7");
+    tooltip.addRow(Alignment.MID, y, "Energy", Alignment.MID, g, "x0.8");
+    tooltip.addRow(Alignment.MID, y, "Fragmentation", Alignment.MID, r, "x1");
     tooltip.addTable("", 0, pad);
   }
 
