@@ -40,11 +40,11 @@ public class FSD_CombatDataPlugin extends BaseEveryFrameCombatPlugin {
        @Override
        public void advance(float amount, List<InputEventAPI> entities) {
            CombatEngineAPI engine = Global.getCombatEngine();
-           if(engine.isPaused()||engine == null){
+           if(engine == null || engine.isPaused()){
                return;
            }
 
-           for(DamagingProjectileAPI proj : Global.getCombatEngine().getProjectiles()){
+           for(DamagingProjectileAPI proj : engine.getProjectiles()){
                FSD_CorruptSeaEffect(proj);
 
                FSD_FlowEffect(proj,amount);
@@ -65,36 +65,37 @@ public class FSD_CombatDataPlugin extends BaseEveryFrameCombatPlugin {
 
        }
        public void FSD_RepairMissile(DamagingProjectileAPI proj){
-           String specId = proj.getProjectileSpecId();
-           if(specId != null && specId.equals(RepairMissile_ID)) {
-               CombatEngineAPI engine = Global.getCombatEngine();
-               if (proj instanceof MissileAPI) {
-                   MissileAPI missile = (MissileAPI) proj;
-                   GuidedMissileAI ai = (GuidedMissileAI) missile.getAI();
-                   CombatEntityAPI target = ai.getTarget();
-                   if (target == null) return;
-                   float dist = target.getCollisionRadius() * 0.75f;
-                   if (MathUtils.getDistanceSquared(missile.getLocation(), target.getLocation()) < dist * dist && target != null) {
-                       Vector2f loc = missile.getLocation();
-                       DistortionEntity newDistortion = new DistortionEntity();
-                       newDistortion.setGlobalTimer(0.25f, 0.25f, 0.1f);
-                       newDistortion.setInnerFull(0.7f, 0.7f);
-                       newDistortion.setInnerHardness(0.8f);
-                       newDistortion.setSizeIn(64, 64);
-                       newDistortion.setPowerIn(0);
-                       newDistortion.setPowerFull(1);
-                       newDistortion.setPowerOut(0);
-                       newDistortion.setSizeFull(32, 32);
-                       newDistortion.setSizeOut(16, 16);
-                       newDistortion.setLocation(loc);
-                       CombatRenderingManager.addEntity(BoxEnum.ENTITY_DISTORTION, newDistortion);
-                       RepairArmor(missile, (ShipAPI) target, missile.getLocation(), 50f);
-                       target.setHitpoints(Math.min(target.getHitpoints() + 300, target.getMaxHitpoints()));
-                       engine.addNebulaSmokeParticle(missile.getLocation(), new Vector2f(), 30f, 1.1f, 0.15f, 0.2f, 0.3f, new Color(3, 228, 32, 166));
-                       Global.getCombatEngine().addFloatingDamageText(loc, 300, new Color(135, 241, 150), missile, null);
-                       Global.getCombatEngine().removeEntity(missile);
-                   }
-               }
+           if (!RepairMissile_ID.equals(proj.getProjectileSpecId())) return;
+           CombatEngineAPI engine = Global.getCombatEngine();
+           if (engine == null || !(proj instanceof MissileAPI)) return;
+
+           MissileAPI missile = (MissileAPI) proj;
+           if (!(missile.getAI() instanceof GuidedMissileAI)) return;
+
+           GuidedMissileAI ai = (GuidedMissileAI) missile.getAI();
+           CombatEntityAPI target = ai.getTarget();
+           if (!(target instanceof ShipAPI)) return;
+
+           float dist = target.getCollisionRadius() * 0.75f;
+           if (MathUtils.getDistanceSquared(missile.getLocation(), target.getLocation()) < dist * dist) {
+               Vector2f loc = missile.getLocation();
+               DistortionEntity newDistortion = new DistortionEntity();
+               newDistortion.setGlobalTimer(0.25f, 0.25f, 0.1f);
+               newDistortion.setInnerFull(0.7f, 0.7f);
+               newDistortion.setInnerHardness(0.8f);
+               newDistortion.setSizeIn(64, 64);
+               newDistortion.setPowerIn(0);
+               newDistortion.setPowerFull(1);
+               newDistortion.setPowerOut(0);
+               newDistortion.setSizeFull(32, 32);
+               newDistortion.setSizeOut(16, 16);
+               newDistortion.setLocation(loc);
+               CombatRenderingManager.addEntity(BoxEnum.ENTITY_DISTORTION, newDistortion);
+               RepairArmor(missile, (ShipAPI) target, missile.getLocation(), 50f);
+               target.setHitpoints(Math.min(target.getHitpoints() + 300, target.getMaxHitpoints()));
+               engine.addNebulaSmokeParticle(missile.getLocation(), new Vector2f(), 30f, 1.1f, 0.15f, 0.2f, 0.3f, new Color(3, 228, 32, 166));
+               engine.addFloatingDamageText(loc, 300, new Color(135, 241, 150), missile, null);
+               engine.removeEntity(missile);
            }
        }
     public static void RepairArmor(DamagingProjectileAPI projectile, ShipAPI target, Vector2f point, float armorDamage) {
@@ -148,34 +149,32 @@ public class FSD_CombatDataPlugin extends BaseEveryFrameCombatPlugin {
     }
 
        public void FSD_TuskEffect(DamagingProjectileAPI proj,float amount){
-           ShipAPI ship = proj.getSource();
-           MutableShipStatsAPI stats = ship.getMutableStats();
+           if (!"FSD_Tusk_warhead".equals(proj.getProjectileSpecId())) return;
+           if (!(proj instanceof MissileAPI)) return;
+
            WeaponAPI weapon = proj.getWeapon();
-           if ("FSD_Tusk_warhead".equals(proj.getProjectileSpecId())) {
-               if (weapon.getType() == WeaponAPI.WeaponType.MISSILE) {
-                   MissileAPI missile = (MissileAPI) proj;
-                   
-                   String missileId = "FSD_TUSK_" + missile.hashCode();
-                   
-                   if (!missile.getCustomData().containsKey("FSD_BOOST_START_TIME")) {
-                       missile.setCustomData("FSD_BOOST_START_TIME", missile.getFlightTime());
-                   }
-                   
-                   float boostStartTime = (Float) missile.getCustomData().get("FSD_BOOST_START_TIME");
-                   float elapsedBoostTime = missile.getFlightTime() - boostStartTime;
-                   
-                   if (elapsedBoostTime < 0.25f) {
-                       float progress = elapsedBoostTime / 0.25f;
-                       missile.getEngineStats().getMaxSpeed().modifyMult(missileId, 2f);
-                       missile.getEngineStats().getProjectileSpeedMult().modifyMult(missileId, Math.min(progress * 3f, 2.5f));
-                   } else {
-                       missile.getEngineStats().getMaxSpeed().unmodify(missileId);
-                       missile.getEngineStats().getProjectileSpeedMult().unmodify(missileId);
-                   }
-                   if(proj.isFading()|| proj.isExpired()||((MissileAPI) proj).isFizzling()){
-                       Global.getCombatEngine().applyDamage(proj, proj.getLocation(), 10000, DamageType.ENERGY, 0, false, false, null);
-                   }
-               }
+           if (weapon == null || weapon.getType() != WeaponAPI.WeaponType.MISSILE) return;
+
+           MissileAPI missile = (MissileAPI) proj;
+           String missileId = "FSD_TUSK_" + missile.hashCode();
+
+           if (!missile.getCustomData().containsKey("FSD_BOOST_START_TIME")) {
+               missile.setCustomData("FSD_BOOST_START_TIME", missile.getFlightTime());
+           }
+
+           float boostStartTime = (Float) missile.getCustomData().get("FSD_BOOST_START_TIME");
+           float elapsedBoostTime = missile.getFlightTime() - boostStartTime;
+
+           if (elapsedBoostTime < 0.25f) {
+               float progress = elapsedBoostTime / 0.25f;
+               missile.getEngineStats().getMaxSpeed().modifyMult(missileId, 2f);
+               missile.getEngineStats().getProjectileSpeedMult().modifyMult(missileId, Math.min(progress * 3f, 2.5f));
+           } else {
+               missile.getEngineStats().getMaxSpeed().unmodify(missileId);
+               missile.getEngineStats().getProjectileSpeedMult().unmodify(missileId);
+           }
+           if(proj.isFading() || proj.isExpired() || missile.isFizzling()){
+               Global.getCombatEngine().applyDamage(proj, proj.getLocation(), 10000, DamageType.ENERGY, 0, false, false, null);
            }
        }
 
@@ -184,34 +183,36 @@ public class FSD_CombatDataPlugin extends BaseEveryFrameCombatPlugin {
 //                   20f,
 //                   0.005f,
 //                   0.001f
-           if(proj.getWeapon() != null){
-               if("FSD_CorruptSea".equals(proj.getWeapon().getId())){
-                   if(!proj.getCustomData().containsKey("FSD_Particle_Glow")){
-                       proj.setCustomData("FSD_Particle_Glow", true);
-                       WeaponAPI weapon = proj.getWeapon();
-                       if(!"FSD_CorruptSea_empty".equals(proj.getProjectileSpecId())) {
-                          FSD_CSchargeGlow.SIZE = OriginalSIZE;
-                          FSD_CSchargeGlow.UNDERSIZE = OriginalUNDERSIZE;
-                          FSD_CSchargeGlow.UNDERCOLOR = OriginalUNDERCOLOR;
-                          FSD_CSchargeGlow.RIFT_COLOR = OriginalRIFT_COLOR;
-                          FSD_ChargeGlowPlugin.DETECT = true;
-                          FSD_ChargeGlowPlugin = new FSD_CSchargeGlow(weapon);
-                          FSD_ChargeGlowEntity = Global.getCombatEngine().addLayeredRenderingPlugin(FSD_ChargeGlowPlugin);
-                          FSD_ChargeGlowPlugin.attachToProjectile(proj);
-                          if ("FSD_CorruptSea_warhead".equals(proj.getProjectileSpecId())) {
-                              FSD_CSchargeGlow.SIZE = 15f;
-                              FSD_CSchargeGlow.UNDERSIZE = 30f;
-                              FSD_CSchargeGlow.UNDERCOLOR = new Color(204, 13, 13, 255);
-                              FSD_CSchargeGlow.RIFT_COLOR = new Color(255, 42, 42, 158);
-                              FSD_ChargeGlowPlugin.DETECT = false;
-                              FSD_ChargeGlowPlugin = new FSD_CSchargeGlow(weapon);
-                              FSD_ChargeGlowEntity = Global.getCombatEngine().addLayeredRenderingPlugin(FSD_ChargeGlowPlugin);
-                              FSD_ChargeGlowPlugin.attachToProjectile(proj);
-                          }
-                       }
-                   }
-               }
+           WeaponAPI weapon = proj.getWeapon();
+           if(weapon == null || !"FSD_CorruptSea".equals(weapon.getId())){
+               return;
            }
+           if(proj.getCustomData().containsKey("FSD_Particle_Glow")){
+               return;
+           }
+
+           proj.setCustomData("FSD_Particle_Glow", true);
+           if("FSD_CorruptSea_empty".equals(proj.getProjectileSpecId())) {
+               return;
+           }
+
+           FSD_CSchargeGlow.SIZE = OriginalSIZE;
+           FSD_CSchargeGlow.UNDERSIZE = OriginalUNDERSIZE;
+           FSD_CSchargeGlow.UNDERCOLOR = OriginalUNDERCOLOR;
+           FSD_CSchargeGlow.RIFT_COLOR = OriginalRIFT_COLOR;
+           FSD_CSchargeGlow.DETECT = true;
+
+           if ("FSD_CorruptSea_warhead".equals(proj.getProjectileSpecId())) {
+               FSD_CSchargeGlow.SIZE = 15f;
+               FSD_CSchargeGlow.UNDERSIZE = 30f;
+               FSD_CSchargeGlow.UNDERCOLOR = new Color(204, 13, 13, 255);
+               FSD_CSchargeGlow.RIFT_COLOR = new Color(255, 42, 42, 158);
+               FSD_CSchargeGlow.DETECT = false;
+           }
+
+           FSD_ChargeGlowPlugin = new FSD_CSchargeGlow(weapon);
+           FSD_ChargeGlowEntity = Global.getCombatEngine().addLayeredRenderingPlugin(FSD_ChargeGlowPlugin);
+           FSD_ChargeGlowPlugin.attachToProjectile(proj);
        }
 
     public void FSD_FlowEffect(DamagingProjectileAPI proj,float amount){
@@ -256,14 +257,16 @@ public class FSD_CombatDataPlugin extends BaseEveryFrameCombatPlugin {
 //                } this.time5 += amount;
 //            }
 //        }
-        if(!proj.getCustomData().containsKey("FSD_Particle_Glow")) {
-            proj.setCustomData("FSD_Particle_Glow", true);
-            if ("FSD_Flow_Shell".equals(proj.getProjectileSpecId())) {
-                FSD_ChargeGlowPlugin = new FSD_CSchargeGlow(weapon);
-                FSD_ChargeGlowEntity = Global.getCombatEngine().addLayeredRenderingPlugin(FSD_ChargeGlowPlugin);
-                FSD_ChargeGlowPlugin.attachToProjectile(proj);
-            }
+        if(!"FSD_Flow_Shell".equals(proj.getProjectileSpecId())) {
+            return;
         }
+        if(weapon == null || proj.getCustomData().containsKey("FSD_Particle_Glow")) {
+            return;
+        }
+        proj.setCustomData("FSD_Particle_Glow", true);
+        FSD_ChargeGlowPlugin = new FSD_CSchargeGlow(weapon);
+        FSD_ChargeGlowEntity = Global.getCombatEngine().addLayeredRenderingPlugin(FSD_ChargeGlowPlugin);
+        FSD_ChargeGlowPlugin.attachToProjectile(proj);
     }
 
     public void FSD_Formulate(ShipAPI ship){

@@ -1,4 +1,11 @@
-Farsight Drive 0.4.2.5 Changelog
+Farsight Drive 4.2.7 Changelog
+
+4.2.7 Codex maintenance update
+
+- Bumped manifest and Version Checker metadata to Farsight Drive 4.2.7.
+- Added the Version Checker index file so FarsightDrive.version is discoverable in-game.
+- Hardened combat projectile handling for repair shells, Heartspike warheads, Corrupt Sea visuals, and Flow Shell visuals against null weapons, non-guided missile AI, and partial projectile state.
+- Added a public README summarizing the restoration fork, dependencies, Version Checker support, and major feature areas.
 
 - Local Codex polish pass: made the crystal infusion campaign script transient for safer save removal, reduced verbose crystal/karma debug logging, and aligned Golgatha generation with Nexerelin Corvus/random-sector behavior.
 - Local Codex lore/text pass: normalized Old Remembrance naming, cleaned the test-mission briefing, filled missing hullmod descriptions, and polished FSD crystal/karma tooltip prose.
