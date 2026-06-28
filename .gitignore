@@ -1,8 +1,19 @@
+# Local IDE/build output
 .idea/
 out/
-classes/
 *.class
-java_files.txt
-*.log
+
+# Editor and archive leftovers
+*~
+*.bak
+*.old
+*.tmp
+*.zip
+*.rar
+*.7z
 Thumbs.db
 desktop.ini
+
+# Runtime logs
+*.log
+starsector.log

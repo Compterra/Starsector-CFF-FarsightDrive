@@ -1,3 +1,9 @@
+## 4.2.8
+
+- Prepared local CFF release for GitHub upload.
+- Removed local IDE/build/archive artifacts from the release package.
+- Bumped Version Checker metadata from 4.2.7 to 4.2.8.
+
 Farsight Drive 4.2.7 Changelog
 
 4.2.7 Codex maintenance update

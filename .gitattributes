@@ -1,0 +1,11 @@
+# Preserve installed mod files byte-for-byte.
+* -text
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ogg binary
+*.jar binary
+*.docx binary
