@@ -34,6 +34,8 @@ Crossblade,FSD_sword_wing,Drone Fighter,Farsight Drive,FSD_HeatTrapSprint,,650,5
 Stagnation Spear,FSD_Spear_wing,Drone Bomber,Farsight Drive,FSD_EXBoomer_System,,300,10,100,,50,0,,200,400,300,90,180,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,101
 Quill,FSD_Drone1_wing,Drone Interceptor,Farsight Drive,FSD_Drone1_System,,150,20,500,,100,0,,325,500,450,180,360,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,102
 Celestial Arrow,FSD_CelestrailArrow_wing,Drone Escort,Farsight Drive,FSD_Attacker_System,,500,75,750,,100,0,,200,400,300,150,300,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,103
+Assault Drone,FSD_drone_assault,Drone Fighter,Farsight Drive,,,150,20,500,,100,0,,225,400,350,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","restricted, no_sell",,0,,,,105
+Flare,FSD_flare,Decoy Fighter,Farsight Drive,,,100,10,100,,50,0,,300,500,450,180,360,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","restricted, no_sell",,0,,,,106
 Longblade,FSD_modao_wing,High-Speed Fighter,Old Remembrance,FSD_HeatTrapSprint,,550,75,500,,125,0,,300,400,350,120,200,30,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,104
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Talon (FSD),FSD_talon,,Prosody Reconstruction,,,200,25,400,,100,0,,325,400,300,150,300,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,

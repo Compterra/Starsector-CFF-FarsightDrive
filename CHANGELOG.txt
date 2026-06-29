@@ -1,3 +1,7 @@
+## 4.3.0
+
+- Prepared the next CFF release upload with manifest and Version Checker metadata updated to 4.3.0.
+- Carries forward the 4.2.9 S-mod tooltip formatting fixes and industry metadata cleanup.
 ## 4.2.9
 
 - Polished FSD hullmod S-mod tooltip formatting for clearer in-game display.

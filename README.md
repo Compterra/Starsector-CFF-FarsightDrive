@@ -1,6 +1,6 @@
 # Farsight Drive
 
-Current version: `4.2.9` for Starsector `0.98a`.
+Current version: `4.3.0` for Starsector `0.98a`.
 
 A restoration and English-polish fork of Farsight Drive, a secretive Eridani biotech faction built around living Reflecting-Light crystal ships, relief logistics, phasework, karma systems, and sealed corporate memory.
 
