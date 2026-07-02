@@ -73,13 +73,7 @@ public class FSD_OverrunPosition extends BaseHullMod {
     tooltip.addPara(
         "During combat, range increases with karma: every %s accumulated karma increases base range by %s.",
         pads, Misc.getTextColor(), y, "1%", "2");
-//    tooltip.addPara(
-//        "Increases energy weapon range by %s/%s/%s/%s based on ship size.", pads, Misc.getTextColor(), y, "10%", "20%", "40%", "60%");
-//    tooltip.addSectionHeading("Drawbacks", Alignment.MID, pads);
-//    tooltip.addPara(
-//        "Ship forced-vent speed and energy weapon rate of fire are reduced by %s;\nballistic weapon rate of fire is reduced by %s.\nMaximum speed is reduced by %s.",
-//        pads, Misc.getTextColor(), r, "30%", "75%", "25%");
-//    tooltip.addPara(" %s ", pads, Misc.getTextColor(), r, "Incompatible with other targeting systems!");
+
   }
 
   public void advanceInCombat(ShipAPI ship, float amount) {

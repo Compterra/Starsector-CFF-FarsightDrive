@@ -8,6 +8,7 @@ out/
 *.bak
 *.old
 *.tmp
+*.codex_dp_backup_*
 *.zip
 *.rar
 *.7z
