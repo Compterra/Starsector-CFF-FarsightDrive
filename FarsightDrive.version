@@ -1,4 +1,4 @@
-﻿{
+{
     "masterVersionFile": "https://raw.githubusercontent.com/Compterra/Starsector-CFF-FarsightDrive/main/FarsightDrive.version",
     "modName": "Farsight Drive",
     "modThreadId": 35651,
@@ -6,7 +6,7 @@
     "modVersion": {
         "major": 4,
         "minor": 3,
-        "patch": 2
+        "patch": 3
     },
     "starsectorVersion": "0.98a",
     "directDownloadURL": "https://github.com/Compterra/Starsector-CFF-FarsightDrive/archive/refs/heads/main.zip",

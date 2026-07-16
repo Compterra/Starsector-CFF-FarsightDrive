@@ -1,11 +1,11 @@
-﻿{
+{
     "id": "FarsightDrive",
     "name": "Farsight Drive",
     "author": "Huhu Fox, Kwin, Caihong, PA",
     "version": {
         "major": 4,
         "minor": 3,
-        "patch": 2
+        "patch": 3
     },
     "description": "A secretive Eridani biotech power arrives in the Persean Sector with living crystal ships, strange relief fleets, and too many sealed archives.",
     "gameVersion": "0.98a",
