@@ -25,7 +25,7 @@ public class FSD_PIMarket extends BaseSubmarketPlugin {
 
     @Override
     public float getTariff() {
-        return 1f;
+        return 0.35f;
     }
 
     @Override
