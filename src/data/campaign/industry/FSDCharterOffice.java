@@ -52,7 +52,7 @@ public class FSDCharterOffice extends BaseIndustry implements MarketImmigrationM
             return;
         }
 
-        if (market.isPlayerOwned()) {
+        if (shouldMaintainStorefront()) {
             ensureStorefront();
         }
 
@@ -67,7 +67,7 @@ public class FSDCharterOffice extends BaseIndustry implements MarketImmigrationM
     public void unapply() {
         super.unapply();
 
-        if (market != null && market.isPlayerOwned()) {
+        if (market != null && market.getSubmarket(SUBMARKET_ID) != null) {
             market.removeSubmarket(SUBMARKET_ID);
         }
 
@@ -83,6 +83,11 @@ public class FSDCharterOffice extends BaseIndustry implements MarketImmigrationM
         market.getMemoryWithoutUpdate().unset(MEM_STOCK_TIER);
         market.getMemoryWithoutUpdate().unset(MEM_IMPROVED);
         market.getMemoryWithoutUpdate().unset(MEM_SPIRE);
+    }
+
+    protected boolean shouldMaintainStorefront() {
+        return market != null && (market.isPlayerOwned()
+                || market.getFaction() != null && FACTION_ID.equals(market.getFaction().getId()));
     }
 
     protected void ensureStorefront() {

@@ -193,10 +193,10 @@ public class FSD_Golgatha {
                                 Industries.SPACEPORT,
                                 Industries.MINING,
                                 Industries.WAYSTATION,
-                                Industries.MILITARYBASE,
                                 Industries.HEAVYBATTERIES,
                                 Industries.STARFORTRESS_HIGH,
-                                "PastItemMilitaryBase"
+                                "PastItemMilitaryBase",
+                                "FSD_liaison_spire"
 
 
                         )
